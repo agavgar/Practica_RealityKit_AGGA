@@ -1,2 +1,5 @@
-# Pr-ctica_Seguridad_AGGA
-Desarrollo de apps seguras con Crryptokit y SwiftUI
+**Práctica para el módulo SwiftUI de Keepcoding.**
+
+**Práctica para el módulo iOS Avanzado de Keepcoding.**
+
+**Resultado: WIP**
