@@ -11,7 +11,7 @@ import SwiftUI
 struct Practica_Seguridad_AGGAApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
