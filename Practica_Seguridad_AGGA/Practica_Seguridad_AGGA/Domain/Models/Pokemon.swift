@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Pokemon: Codable {
+struct Pokemon: Codable, Identifiable {
     let id: Int?
     let name: String?
-    let sprite: PokemonSprites?
-    let stats: PokemonStats?
+    let sprites: PokemonSprites?
+    let stats: [PokemonStats]?
 }
 
 struct PokemonSprites: Codable {
@@ -24,11 +24,16 @@ struct PokemonStats: Codable {
     let base_stat:Int?
 }
 
-struct Item: Codable {
+struct StatDetail: Codable {
+    var name: String?
+    var url: String?
+}
+
+struct Item: Codable, Identifiable {
     let id: Int?
     let name: String?
     let cost: Int?
-    let sprite: ItemSprite?
+    let sprites: ItemSprite?
 }
 
 struct ItemSprite: Codable {

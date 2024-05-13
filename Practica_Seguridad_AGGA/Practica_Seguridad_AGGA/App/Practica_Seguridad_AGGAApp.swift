@@ -12,6 +12,7 @@ struct Practica_Seguridad_AGGAApp: App {
     var body: some Scene {
         WindowGroup {
             RootView()
+                .environmentObject(RootViewModel(repository: RepositoryApiProvider(apiProvider: ApiProvider())))
         }
     }
 }

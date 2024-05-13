@@ -7,6 +7,7 @@
 
 import Foundation
 import KeychainSwift
+import LocalAuthentication
 
 final class SecurityData {
     
@@ -40,6 +41,35 @@ final class SecurityData {
             return []
         }
         return []
+    }
+    
+    func authenticateUser(completion: @escaping (Bool) -> Void) {
+        let context = LAContext()
+        var error: NSError?
+
+        // Check if biometric authentication is available on the device.
+        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
+            let reason = "Acces to the pokemons"
+
+            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) {
+                success, authenticationError in
+
+                DispatchQueue.main.async {
+                    if success {
+                        // Authentication was successful, user is verified
+                        completion(true)
+                    } else {
+                        // Authentication failed, proceed with fallback
+                        completion(false)
+                    }
+                }
+            }
+        } else {
+            // Biometric authentication not available
+            DispatchQueue.main.async {
+                completion(false)
+            }
+        }
     }
 
     

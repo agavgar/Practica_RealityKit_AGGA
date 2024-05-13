@@ -17,6 +17,7 @@ final class RemoteURLRequest: RemoteURLRequestProtocol {
         }
         var request = URLRequest(url: url)
         request.httpMethod = HTTPMethods.get
+        request.addValue("Content-Type", forHTTPHeaderField: "application/json")
         return request
     }
     func URLRequestItem(number: String) -> URLRequest? {
@@ -26,6 +27,7 @@ final class RemoteURLRequest: RemoteURLRequestProtocol {
         }
         var request = URLRequest(url: url)
         request.httpMethod = HTTPMethods.get
+        request.addValue("Content-Type", forHTTPHeaderField: "application/json")
         return request
     }
     
@@ -39,7 +41,7 @@ final class ApiProvider: ApiProviderProtocol {
         var pokedex: [Pokemon] = []
         
         for i in 1...remoteURLRequest.endpoints.pokemonCount {
-            
+                    
             // Get the URLRequest
             guard let remoteURLRequest = remoteURLRequest.URLRequestPokemon(number: "\(i)") else {
                 print("Error ApiProvider -> getPokemon -> URLPokemon")
@@ -48,7 +50,6 @@ final class ApiProvider: ApiProviderProtocol {
             
             // Get the data
             let (data, response) = try await URLSession.shared.data(for: remoteURLRequest)
-            
             // Transform the response into a HTTPURLResponse to access the status code
             guard let httpResponse = response as? HTTPURLResponse else {
                 print("Error ApiProvider -> getPokemon -> HTTPURLResponse")
@@ -83,6 +84,7 @@ final class ApiProvider: ApiProviderProtocol {
         let jsonData = try JSONEncoder().encode(pokedex)
         SecurityData.securityShare.save(pokemon: jsonData)
         */
+        print(pokedex)
         return pokedex
     }
     
