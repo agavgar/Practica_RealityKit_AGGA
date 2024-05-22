@@ -21,15 +21,12 @@ struct RootView: View {
                     .tabItem {
                         Image(systemName: "book.pages")
                         Text("Pokedex")
-                    }
-                Text("ItemsView")
+                    }   
+                ItemView()
                     .tabItem {
                         Image(systemName: "backpack")
                         Text("Backpack")
                     }
-                
-                
-                
             }
         }
     }

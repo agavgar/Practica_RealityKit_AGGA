@@ -13,12 +13,13 @@ struct PokemonView: View {
     
     var body: some View {
         ScrollView(.vertical){
-            VStack(spacing: 20){
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
                 ForEach(rootViewModel.pokemon) { pokemon in
-                    Text("\(pokemon.name!)")
+                    PokemonRow(pokemonImageUrl: (pokemon.sprites?.front_default)!, pokemonName: pokemon.name!)
                 }
             }
         }
+        .padding()
         .onAppear {
             rootViewModel.loadPokemonsAPI()
         }

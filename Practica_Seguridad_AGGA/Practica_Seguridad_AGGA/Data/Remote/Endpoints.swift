@@ -10,7 +10,7 @@ import Foundation
 struct Endpoints {
     let urlString: String = "https://pokeapi.co/api/v2/"
     let pokemon = "pokemon/"
-    let pokemonCount = 151
+    let pokemonCount = 355
     let item = "item/"
-    let itemCount = 80
+    let itemCount = 150
 }

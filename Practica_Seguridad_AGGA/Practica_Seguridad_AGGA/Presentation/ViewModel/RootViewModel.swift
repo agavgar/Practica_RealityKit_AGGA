@@ -16,11 +16,13 @@ final class RootViewModel: ObservableObject {
     //MARK: - Properties
     var repository: RepositoryProtocol
     @Published var pokemon = [Pokemon]()
+    @Published var items = [Item]()
     @Published var status = Status.loading
     
     //MARK: - Init
     init(repository: RepositoryProtocol) {
         self.repository = repository
+        loadItemsAPI()
         loadPokemonsAPI()
     }
     
@@ -67,6 +69,35 @@ final class RootViewModel: ObservableObject {
         }catch{
             print("RootViewModel -> getPokemons -> Error in catch")
         }
-        
+    }
+    
+    func loadItemsAPI() {
+        Task{
+            await getItems()
+            DispatchQueue.main.async {
+                if self.status != .loaded{
+                    self.status = .loaded
+                }
+            }
+        }
+    }
+    
+    func getItems() async {
+        if self.status != .loaded{
+            self.status = .loading
+        }
+        do {
+            let data = try await repository.getItem()
+            if data.count != 0 {
+                DispatchQueue.main.async {
+                    self.items = data
+                }
+            }else{
+                print("RootViewModel -> getItems -> No data in load")
+            }
+        }catch{
+            print("RootViewModel -> getItems -> Error in catch")
+        }
+
     }
 }

@@ -84,7 +84,6 @@ final class ApiProvider: ApiProviderProtocol {
         let jsonData = try JSONEncoder().encode(pokedex)
         SecurityData.securityShare.save(pokemon: jsonData)
         */
-        print(pokedex)
         return pokedex
     }
     
@@ -117,7 +116,7 @@ final class ApiProvider: ApiProviderProtocol {
                 // Convert the data into a String and check if it is empty
                 let item = try JSONDecoder().decode(Item.self, from: data)
                 backpack.append(item)
-            // If the status code is 401, return (nil, authenticationError)
+                // If the status code is 401, return (nil, authenticationError)
             case 401:
                 print("Error while authenticating the user")
                 

@@ -37,5 +37,5 @@ struct Item: Codable, Identifiable {
 }
 
 struct ItemSprite: Codable {
-    let item_Default: String?
+    let `default`: String?
 }
