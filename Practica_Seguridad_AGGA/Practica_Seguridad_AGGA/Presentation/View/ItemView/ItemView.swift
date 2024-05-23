@@ -10,23 +10,27 @@ import SwiftUI
 
 struct ItemView: View {
     
-    @EnvironmentObject var rootViewModel: RootViewModel
+    @EnvironmentObject var homeViewModel: HomeViewModel
+    @State var items: [Item] = []
+
     
     var body: some View {
         ScrollView(.vertical){
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
-                ForEach(rootViewModel.items) { item in
+                ForEach(items) { item in
                     ItemRow(itemImageURL: (item.sprites?.default)!, itemName: item.name!, itemCost: item.cost!)
                 }
             }
         }
         .padding()
         .onAppear {
-            rootViewModel.loadItemsAPI()
+            DispatchQueue.main.async {
+                items = homeViewModel.items
+            }
         }
     }
 }
 
 #Preview {
-    ItemView().environmentObject(RootViewModel(repository: RepositoryApiProvider(apiProvider: ApiProvider())))
+    ItemView().environmentObject(HomeViewModel(repository: RepositoryApiProvider(apiProvider: ApiProvider())))
 }
