@@ -11,7 +11,12 @@ final class RemoteURLRequest: RemoteURLRequestProtocol {
     
     var endpoints: Endpoints = Endpoints()
     func URLRequestPokemon(number: String) -> URLRequest? {
-        guard let url = URL (string: "\(endpoints.urlString)\(endpoints.pokemon)\(number)") else {
+        guard let urlString = Crypto().getDecryptedURL() else {
+            print("Error ApiProvider -> urlString -> CryptoDecryptedKey")
+            return nil
+        }
+        //print(urlString)
+        guard let url = URL (string: "\(urlString)\(endpoints.pokemon)\(number)") else {
             print("Error ApiProvider -> RemoteURLRequest -> URLRequestPokemon")
             return nil
         }
@@ -21,7 +26,12 @@ final class RemoteURLRequest: RemoteURLRequestProtocol {
         return request
     }
     func URLRequestItem(number: String) -> URLRequest? {
-        guard let url = URL (string: "\(endpoints.urlString)\(endpoints.item)\(number)") else {
+        guard let urlString = Crypto().getDecryptedURL() else {
+            print("Error ApiProvider -> urlString -> CryptoDecryptedKey")
+            return nil
+        }
+        //print(urlString)
+        guard let url = URL (string: "\(urlString)\(endpoints.item)\(number)") else {
             print("Error ApiProvider -> RemoteURLRequest -> URLRequestIrem")
             return nil
         }
@@ -49,7 +59,7 @@ final class ApiProvider: ApiProviderProtocol {
             }
             
             // Get the data
-            let (data, response) = try await URLSession.shared.data(for: remoteURLRequest)
+            let (data, response) = try await SSLPinningSecureURLSession().session.data(for: remoteURLRequest)
             // Transform the response into a HTTPURLResponse to access the status code
             guard let httpResponse = response as? HTTPURLResponse else {
                 print("Error ApiProvider -> getPokemon -> HTTPURLResponse")
@@ -99,7 +109,7 @@ final class ApiProvider: ApiProviderProtocol {
             }
             
             // Get the data
-            let (data, response) = try await URLSession.shared.data(for: remoteURLRequest)
+            let (data, response) = try await SSLPinningSecureURLSession().session.data(for: remoteURLRequest)
             
             // Transform the response into a HTTPURLResponse to access the status code
             guard let httpResponse = response as? HTTPURLResponse else {

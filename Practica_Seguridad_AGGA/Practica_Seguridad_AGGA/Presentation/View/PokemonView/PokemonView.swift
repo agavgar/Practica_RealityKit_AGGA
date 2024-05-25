@@ -23,7 +23,7 @@ struct PokemonView: View {
         .padding()
         .onAppear {
             DispatchQueue.main.async {
-                self.pokemons = homeViewModel.pokemon
+                self.pokemons = homeViewModel.pokemons
             }
         }
     }

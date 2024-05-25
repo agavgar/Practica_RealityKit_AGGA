@@ -17,55 +17,55 @@ struct RootView: View {
         if isAuthenticated {
             HomeView().environmentObject(HomeViewModel(repository: RepositoryApiProvider(apiProvider: ApiProvider())))
         }else{
-            ZStack {
-                Image("BG")
+            VStack {
+                Image("Logo")
+                    .resizable()
                     .scaledToFit()
-                    .ignoresSafeArea()
-                    .offset(y:85)
-                
-                VStack {
-                    ZStack{
-                        Rectangle()
-                            .fill(.white)
-                            .frame(width: 265, height: 215)
-                            .cornerRadius(35)
-                        Rectangle()
-                            .fill(.red.opacity(0.8))
-                            .frame(width: 250, height: 200)
-                            .cornerRadius(35)
-                        Text("In order to enter the world of pokemon, you need to be authorized.Please push the pokeball button and identify")
-                            .frame(width: 200)
-                            .font(.title3)
-                            .bold()
-                            .foregroundColor(.yellow)
-                            .shadow(radius: 5)
-                    }
-                    ZStack{
-                        Circle()
-                            .fill(Color.yellow)
-                            .frame(width: 75, height: 75)
-                        Circle()
-                            .fill(Color.red)
-                            .frame(width: 65, height: 65)
-                        Rectangle()
-                            .fill(Color.white)
-                            .frame(width: 65, height: 65)
-                            .offset(y:35)
-                            .clipShape(.circle)
-                        Button(action: {
-                            rootViewModel.authenticateUser { authenticated in
-                                self.isAuthenticated = true
-                            }
-                        }, label: {
-                            Text("Butt")
-                        })
-                        }
-                        .frame(width: 120, height: 120)
-                    }
+                    .offset(y: -75)
+                    .padding(20)
+                ZStack{
+                    Rectangle()
+                        .fill(.white)
+                        .frame(width: 260, height: 140)
+                        .cornerRadius(35)
+                    Rectangle()
+                        .fill(.red.opacity(0.8))
+                        .frame(width: 250, height: 130)
+                        .cornerRadius(35)
+                    Text("Please tap the pokeball button and identify yourself")
+                        .frame(width: 245)
+                        .font(.title3)
+                        .bold()
+                        .foregroundColor(.yellow)
+                        .shadow(radius: 5)
                 }
+                ZStack{
+                    Circle()
+                        .fill(Color.yellow)
+                        .frame(width: 75, height: 75)
+                    Circle()
+                        .fill(Color.red)
+                        .frame(width: 65, height: 65)
+                    Rectangle()
+                        .fill(Color.white)
+                        .frame(width: 65, height: 65)
+                        .offset(y:35)
+                        .clipShape(.circle)
+                    Button(action: {
+                        rootViewModel.authenticateUser { authenticated in
+                            self.isAuthenticated = true
+                        }
+                    }, label: {
+                        Text("Button")
+                            .foregroundStyle(.clear)
+                    })
+                }
+                .frame(width: 120, height: 120)
             }
+            .offset(y: -80)
         }
     }
+}
 
 #Preview {
     RootView()

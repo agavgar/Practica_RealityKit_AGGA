@@ -5,6 +5,9 @@
 //  Created by Alejandro Alberto Gavira García on 12/5/24.
 //
 
+
+// THIS CLASS IS NOT ON THE PROJECT. I STARTED WITH THIS IDEA BUT LEFT IT BECAUSE OF TIME
+
 import Foundation
 import KeychainSwift
 import LocalAuthentication
@@ -16,7 +19,7 @@ final class SecurityData {
     
     //MARK: - Init
     private init() {}
-    
+    // THIS CLASS IS NOT ON THE PROJECT. I STARTED WITH THIS IDEA BUT LEFT IT BECAUSE OF TIME
     //MARK: - Methods
     func savePokemon(pokemon: Data) {
         if let value = String(data: pokemon, encoding: .utf8){
@@ -25,7 +28,7 @@ final class SecurityData {
         print("Error KeychainSaveData -> Save -> Error saving pokemon. Pokemons stored = nothing")
         KeychainSwift().set("", forKey: "Pokemon")
     }
-    
+    // THIS CLASS IS NOT ON THE PROJECT. I STARTED WITH THIS IDEA BUT LEFT IT BECAUSE OF TIME
     func loadPokemon() -> [Pokemon]? {
         if let data = KeychainSwift().get("Pokemon") {
             if let jsonPokedex = data.data(using: .utf8) {
@@ -42,7 +45,7 @@ final class SecurityData {
         }
         return []
     }
-    
+    // THIS CLASS IS NOT ON THE PROJECT. I STARTED WITH THIS IDEA BUT LEFT IT BECAUSE OF TIME
     func authenticateUser(completion: @escaping (Bool) -> Void) {
         let context = LAContext()
         var error: NSError?
@@ -72,6 +75,6 @@ final class SecurityData {
         }
     }
 
-    
+    // THIS CLASS IS NOT ON THE PROJECT. I STARTED WITH THIS IDEA BUT LEFT IT BECAUSE OF TIME
     
 }

@@ -24,7 +24,15 @@ struct ItemRow: View {
             ZStack {
                 Circle()
                     .fill(Color.yellow)
+                    .frame(width: 155, height: 155)
+                Circle()
+                    .fill(Color.red)
                     .frame(width: 150, height: 150)
+                Rectangle()
+                    .fill(Color.white)
+                    .frame(width: 150, height: 150)
+                    .offset(y:75)
+                    .clipShape(.circle)
                 if let itemImage = itemImage {
                     itemImage
                         .resizable()
