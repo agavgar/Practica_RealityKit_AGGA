@@ -1,0 +1,1817 @@
+[
+  {
+    "displayName" : "Super Training Stage.usdz",
+    "libraryIdentifier" : "a2e3b5515e2aad916ebd95a17fe21261",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "cd020f1967c4efe6a7d29c192929acd0",
+    "format" : "model",
+    "displayName" : "Abra.usdz"
+  },
+  {
+    "displayName" : "Aerodactyl.usdz",
+    "libraryIdentifier" : "083429cd953946f1d475b3c28faf23ac",
+    "format" : "model"
+  },
+  {
+    "displayName" : "AlakazamMega.usdz",
+    "libraryIdentifier" : "e75038a804d9d56e462c44e28201c928",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Arbok.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "340677e96f868fe57eb7d94e45b24a9c"
+  },
+  {
+    "displayName" : "Arcanine.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "decaba19d797bc39c83b56519e39824f"
+  },
+  {
+    "displayName" : "Articuno.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "af5f69d2c4b3b9134bd16fe2647a466a"
+  },
+  {
+    "displayName" : "Beedrill.usdz",
+    "libraryIdentifier" : "ed3d82acb3129f8a6e03ebff456eeefa",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "1c0268b8f691e598e38ebdc132c0568b",
+    "displayName" : "Bellsprout.usdz"
+  },
+  {
+    "libraryIdentifier" : "9976f45dbeff3fddb19bb56b72ae460a",
+    "format" : "model",
+    "displayName" : "Blastoise.usdz"
+  },
+  {
+    "displayName" : "Bulbasaur.usdz",
+    "libraryIdentifier" : "43f73d16ded8f0a63a9a06003d982a8a",
+    "format" : "model"
+  },
+  {
+    "displayName" : "ButterfreeF.usdz",
+    "libraryIdentifier" : "ebd079a6907aad2c9359a09a1bb1182b",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "f81080990f9bec206665c1b30bd649be",
+    "displayName" : "Caterpie.usdz"
+  },
+  {
+    "displayName" : "CharizardMegaY.usdz",
+    "libraryIdentifier" : "4039c5861836bb8d4c8bc6e4baa11942",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Charmander.usdz",
+    "libraryIdentifier" : "424a7786fe33f99fc76eabe91e845e30",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "3b3f748b729f62fb54d25985c0c849a3",
+    "displayName" : "Charmeleon.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Clefable.usdz",
+    "libraryIdentifier" : "2273ac4af7e3e279a2f8a10968ca318f",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "609df94694c33a1556ed89a6928bd6b6",
+    "format" : "model",
+    "displayName" : "clefairy.usdz"
+  },
+  {
+    "displayName" : "Cloyster.usdz",
+    "libraryIdentifier" : "eb159499af25c4e183fd8092c666827f",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Cubone.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "7048d1838928b0ce84df496e6a704f03"
+  },
+  {
+    "libraryIdentifier" : "9bd0a7213e4ed654251e8a9cc3e9f774",
+    "format" : "model",
+    "displayName" : "Dewgong.usdz"
+  },
+  {
+    "displayName" : "Diglett.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "595e28b174e121a519f64b23e220f490"
+  },
+  {
+    "displayName" : "Ditto.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "ca52161a8fcd7de5e87fc7e9c81074c7"
+  },
+  {
+    "libraryIdentifier" : "7f4e53db5e0644e5ed1a9f1901d13f3d",
+    "displayName" : "DodrioM.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "7d62d2ec0a4b8d642bee32ca55db8299",
+    "displayName" : "Dragonair.usdz"
+  },
+  {
+    "libraryIdentifier" : "719ddf176a2846dbfa130c43cdbe1242",
+    "displayName" : "Dratini.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "78244c48ed3a6008441ec7d0e56c1d99",
+    "format" : "model",
+    "displayName" : "Dugtrio.usdz"
+  },
+  {
+    "libraryIdentifier" : "8fe34de6c84bcef9685fbb08c0e8af10",
+    "format" : "model",
+    "displayName" : "Eevee.usdz"
+  },
+  {
+    "libraryIdentifier" : "8cef38dfa6043835956ffcf3ea39847a",
+    "displayName" : "Ekans.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "17defeeab02076a03c2bf86a8862556f",
+    "format" : "model",
+    "displayName" : "Farfetch'd.usdz"
+  },
+  {
+    "libraryIdentifier" : "136c7c0c4ade761fff24eaec99e34bda",
+    "format" : "model",
+    "displayName" : "Fearow.usdz"
+  },
+  {
+    "displayName" : "Flareon.usdz",
+    "libraryIdentifier" : "1baba24fe7bae1eebb71da21201f246c",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "9d8ca35d701d4d2b0cf1adf791a08ef6",
+    "displayName" : "GengarMega.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Geodude.usdz",
+    "libraryIdentifier" : "a2269bada2e15e9ee120ba983c038dea",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "acc20e8655d3e084c9d3743b215aa8ff",
+    "format" : "model",
+    "displayName" : "Gloom_F.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "golbat_m.usdz",
+    "libraryIdentifier" : "a488d16037ee479741858594e72119ef"
+  },
+  {
+    "libraryIdentifier" : "01be48eff4554f6ae179bcec06556f67",
+    "format" : "model",
+    "displayName" : "Golduck.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Golem.usdz",
+    "libraryIdentifier" : "33011668896ca3ab000efd63b45d7403"
+  },
+  {
+    "displayName" : "Graveler.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "2dd562cf9406d3c9fb915d206e563d15"
+  },
+  {
+    "displayName" : "Grimer.usdz",
+    "libraryIdentifier" : "2721f31c9012e6cd074192b9124e6f31",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "366fc1defe263da56cb99eefafe57585",
+    "displayName" : "Growlithe.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "GyaradosMega.usdz",
+    "libraryIdentifier" : "4044b529a92fc04deadc1effb502dabe",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Hitmonchan.usdz",
+    "libraryIdentifier" : "05fe7bbd750b8de5f4fe727a7dc3b0f1",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "991db391e7973f08e5ab3d5f6d2d2c0e",
+    "format" : "model",
+    "displayName" : "Ivysaur.usdz"
+  },
+  {
+    "libraryIdentifier" : "4e190d4277586334e7ae488d670aba79",
+    "displayName" : "Jigglypuff.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Jolteon.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "d40bdcddb259875d9a4ebc1cff94932d"
+  },
+  {
+    "libraryIdentifier" : "7af11dd833c15a7257ee51ef8d899043",
+    "format" : "model",
+    "displayName" : "KadabraM.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Kakuna.usdz",
+    "libraryIdentifier" : "55df929b68a1fe1c23746a365addcc6c"
+  },
+  {
+    "format" : "model",
+    "displayName" : "KangaskhanMega.usdz",
+    "libraryIdentifier" : "5f92e5e396b9a7a6603a1e4f61db0ec5"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "89c5158391db542b58032a725fb30f6c",
+    "displayName" : "Machamp.usdz"
+  },
+  {
+    "displayName" : "Machoke.usdz",
+    "libraryIdentifier" : "fda1a165acab1c88f75c89eece42d854",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "a47248ac777112abcb06eb3d1f3b27d4",
+    "displayName" : "Machop.usdz"
+  },
+  {
+    "displayName" : "MagikarpF.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "cdfaf52e0e63a4eb0daf35f4e4c94a37"
+  },
+  {
+    "displayName" : "Magnemite.usdz",
+    "libraryIdentifier" : "db47da0b2b2636359f25b470bb465e4b",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Magneton.usdz",
+    "libraryIdentifier" : "9df9b03ff32bf3b8d55ef514246f2287"
+  },
+  {
+    "libraryIdentifier" : "0734259d39642981670425cdebcf480f",
+    "displayName" : "Mankey.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Marowak.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "4b907e64743a0e226639e9cdd525a369"
+  },
+  {
+    "libraryIdentifier" : "690ad221c79c8376f02fedd0caa204c9",
+    "displayName" : "Meowth.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "5422c21f4764124c8ecf19f8f1a5db2e",
+    "displayName" : "Metapod.usdz"
+  },
+  {
+    "displayName" : "Mew.usdz",
+    "libraryIdentifier" : "7c1eaa514259ddafc487a63c09a6a7a4",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Mewtwo.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "58648112fd927377605cc8b3e16dcfbf"
+  },
+  {
+    "format" : "model",
+    "displayName" : "MewtwoMegaY.usdz",
+    "libraryIdentifier" : "58bf4a85d7ed9316c1c06e0e3356a1c8"
+  },
+  {
+    "libraryIdentifier" : "76cb618a8ac7fcd8e58c785139c971c0",
+    "displayName" : "Moltres.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "MrMime.usdz",
+    "libraryIdentifier" : "4256dcd1d23c3627431dbe670d545bcb"
+  },
+  {
+    "libraryIdentifier" : "03c7942170c23053ad69466aff80620a",
+    "format" : "model",
+    "displayName" : "Muk.usdz"
+  },
+  {
+    "libraryIdentifier" : "c179409751eac6bd5ac361a1fb405236",
+    "format" : "model",
+    "displayName" : "Nidoking.usdz"
+  },
+  {
+    "libraryIdentifier" : "763d042145c6c3ec7a576b5a9bd493e2",
+    "format" : "model",
+    "displayName" : "Nidoqueen.usdz"
+  },
+  {
+    "displayName" : "NidoranF.usdz",
+    "libraryIdentifier" : "cfc200f5cc433447b0523dd8a0502d21",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "8b88941af78bde8eed8bba177fedfe07",
+    "format" : "model",
+    "displayName" : "NidoranM.usdz"
+  },
+  {
+    "displayName" : "Nidorina.usdz",
+    "libraryIdentifier" : "5f4a9ae875b24cabdb58e8520e0a9a02",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "04a51ead0e3358fc790ce2bde7eb589e",
+    "format" : "model",
+    "displayName" : "Nidorino.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Ninetales.usdz",
+    "libraryIdentifier" : "1b1dc89aa79c13d58601ac7f13aad6d2"
+  },
+  {
+    "libraryIdentifier" : "c32c3c8757579b1ca3bd1c86aca1a04f",
+    "displayName" : "Oddish.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Omanyte.usdz",
+    "libraryIdentifier" : "bab5d80fb105e7860293235dcdd63f7b"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Omastar.usdz",
+    "libraryIdentifier" : "2707a1d2f3caf6b03be5618016a08a50"
+  },
+  {
+    "libraryIdentifier" : "163f995923aa372d8acea56db15875b3",
+    "displayName" : "Paras.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Parasect.usdz",
+    "libraryIdentifier" : "0a0b41c9c294bfd8fa3b4eca54226fc0"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "178d7e1d0fe7e26f57a57cd7896cdaef",
+    "displayName" : "Persian.usdz"
+  },
+  {
+    "libraryIdentifier" : "be77d484b21c139f1be5f77b33b62a4f",
+    "format" : "model",
+    "displayName" : "Pidgeot_Mega.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Pidgeotto.usdz",
+    "libraryIdentifier" : "b3dbdc3ad10c7ce74ecd2a0726c8da08"
+  },
+  {
+    "displayName" : "Pidgey.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "c58d8e17974bf0d57fb8c342da87cfad"
+  },
+  {
+    "libraryIdentifier" : "a68828baa188a8fae36e76c03a593436",
+    "displayName" : "PikachuF.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Pinsir.usdz",
+    "libraryIdentifier" : "934f95f4107901d8713cafe607854497",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Poliwag.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "2e830bdff80fc7b650cdc5baeb33fb0f"
+  },
+  {
+    "libraryIdentifier" : "c50aebae3bc9e190676a6ab392d4ed7a",
+    "format" : "model",
+    "displayName" : "Poliwhirl.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Poliwrath.usdz",
+    "libraryIdentifier" : "06f5ae4b49052cad6776eee83b392ba3"
+  },
+  {
+    "libraryIdentifier" : "dd1ab17dce1ff7b808ef45e002101494",
+    "format" : "model",
+    "displayName" : "Ponyta.usdz"
+  },
+  {
+    "libraryIdentifier" : "9b4fd2a222c506e615578b98c2e67990",
+    "format" : "model",
+    "displayName" : "Porygon.usdz"
+  },
+  {
+    "displayName" : "Primeape.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "e7a1108c517c39616b75d3390216cfb8"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "ef2f6be5817d9d09023fb1df1cb26b07",
+    "displayName" : "Psyduck.usdz"
+  },
+  {
+    "libraryIdentifier" : "642826d052bd37ee8bc1dfeb1e57fc84",
+    "displayName" : "RaichuF.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "4ef8fd3f6dc42f4537b4c25c690c9ada",
+    "displayName" : "Rapidash.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Raticate_M.usdz",
+    "libraryIdentifier" : "30fb40325661b283a0a440e10a56d326",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Rattata_M.usdz",
+    "libraryIdentifier" : "54e0a91b93b63c2f8d4edefba91687ec"
+  },
+  {
+    "libraryIdentifier" : "e295ffead493f485b66878c554dae738",
+    "displayName" : "RhydonF.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Sandshrew.usdz",
+    "libraryIdentifier" : "f33d863b8c7150d8165f13173a388317"
+  },
+  {
+    "displayName" : "Sandslash.usdz",
+    "libraryIdentifier" : "74abaa249bf9ab39f2c43f69447135c4",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "4531d3afa0cfbf11dac1e675684e9105",
+    "displayName" : "Scyther.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "f62122f4d812faf18797631e69961a12",
+    "displayName" : "Seel.usdz"
+  },
+  {
+    "displayName" : "Slowbro.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "0d36cb0cb72503c1f7cc8cc70974de31"
+  },
+  {
+    "libraryIdentifier" : "ea4ad9f713a76cd12eeb8edb7631c8b7",
+    "displayName" : "Slowpoke.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "c56d8e6ecbac385dcd48422b19b951f7",
+    "displayName" : "Snorlax.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Spearow.usdz",
+    "libraryIdentifier" : "6b5516d0121c0d5b61e5e20b83207260"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Squirtle.usdz",
+    "libraryIdentifier" : "62cdee297f76df2124e9956c21dff485"
+  },
+  {
+    "libraryIdentifier" : "549d07e12e84ee2ae3dd53fb06e827e9",
+    "displayName" : "Starmie.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "fcb65645510e3dfc1a70b21589a2c2e3",
+    "format" : "model",
+    "displayName" : "Staryu.usdz"
+  },
+  {
+    "libraryIdentifier" : "3f5ff45e7bf4f7e1aeeec3d824dbd9d5",
+    "format" : "model",
+    "displayName" : "Tentacool.usdz"
+  },
+  {
+    "libraryIdentifier" : "b6fae828613f7f433a438f95493a7f7c",
+    "format" : "model",
+    "displayName" : "Tentacruel.usdz"
+  },
+  {
+    "displayName" : "Vaporeon.usdz",
+    "libraryIdentifier" : "3902b92f4f159308aad87a3e3d3a5824",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Venomoth.usdz",
+    "libraryIdentifier" : "34dd9ec6b83e4eafadb0922fff067efd"
+  },
+  {
+    "displayName" : "Venonat.usdz",
+    "libraryIdentifier" : "f30d1db9939d74c103d3679b43c5ceba",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "VenusaurMega.usdz",
+    "libraryIdentifier" : "c7ef0601f939323d1d264686d29eac05"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Victreebel.usdz",
+    "libraryIdentifier" : "d0eb0e955132ac149f8224937615705c"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "b41343a77b1000f120a755168821ee9b",
+    "displayName" : "Vileplume_F.usdz"
+  },
+  {
+    "libraryIdentifier" : "e6032687c4a27c8503bb8cea60f9c116",
+    "displayName" : "Voltorb.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "145b707df94674886837a41a6317814d",
+    "format" : "model",
+    "displayName" : "Vulpix.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Wartortle.usdz",
+    "libraryIdentifier" : "0541b4ef46ac18dbc4f20d7faf35e752"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Weedle.usdz",
+    "libraryIdentifier" : "c10aacb4a83989a037eca5489c063ea4"
+  },
+  {
+    "libraryIdentifier" : "70c44421a861ae7071b56658c25d523f",
+    "format" : "model",
+    "displayName" : "Weepinbell.usdz"
+  },
+  {
+    "displayName" : "Wigglytuff.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "1ace0a3510d86991d0e2340270436d77"
+  },
+  {
+    "libraryIdentifier" : "333f4f958d070bd87da010ebc857a118",
+    "format" : "model",
+    "displayName" : "Zapdos.usdz"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "af87c51ace7a9cacc3d25e2bed03162e",
+    "displayName" : "zubat_m.usdz"
+  },
+  {
+    "libraryIdentifier" : "20748d382d735d19bc30b7401816f6af",
+    "format" : "model",
+    "displayName" : "Arbok.usdz"
+  },
+  {
+    "displayName" : "Arcanine.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "6f0edb36e1a5c549a9239cfe1fa21cbb"
+  },
+  {
+    "displayName" : "Articuno.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "47c04647908a3a2412797dec14c6c9cf"
+  },
+  {
+    "displayName" : "Beedrill.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "2505912b9d3a82138bfbb42858d9178a"
+  },
+  {
+    "displayName" : "Bellsprout.usdz",
+    "libraryIdentifier" : "654c4a092cd14500e576b1f92307e14b",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "7e4e28017bc4532cbd53102e17b891fd",
+    "format" : "model",
+    "displayName" : "Blastoise.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Bulbasaur.usdz",
+    "libraryIdentifier" : "430cc5137aa464fbe7f62c06e9670b3f"
+  },
+  {
+    "displayName" : "ButterfreeF.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "c496bf6918727684ccc29364d9f6c1cc"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Caterpie.usdz",
+    "libraryIdentifier" : "bbc0df9011407845de9fd7b0cd1ebaf8"
+  },
+  {
+    "displayName" : "CharizardMegaY.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "b7ed5face37bd9e9e39b22b153384714"
+  },
+  {
+    "displayName" : "Charmander.usdz",
+    "libraryIdentifier" : "86292fbeda5700182e6e1205e76d4ab4",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "3ed59b56444a60892bc46bcab2f4fe76",
+    "format" : "model",
+    "displayName" : "Charmeleon.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Clefable.usdz",
+    "libraryIdentifier" : "0b898bea91a9297e83cbebb82287a9ff"
+  },
+  {
+    "libraryIdentifier" : "b43237eb88a3801bc80b3253ea439f52",
+    "displayName" : "clefairy.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "2b6f5c0a3be90139b0d872a0877d897b",
+    "displayName" : "Cloyster.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "621b9513f2f43d858e7f74a9fdd85c00",
+    "displayName" : "Cubone.usdz"
+  },
+  {
+    "displayName" : "Dewgong.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "ccd8704623278b78c027a887bea18d90"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "be8a3cc3af9275935cb3b4763a6944fb",
+    "displayName" : "Diglett.usdz"
+  },
+  {
+    "libraryIdentifier" : "00efc3ad6f798a0da9bfee7235572e00",
+    "format" : "model",
+    "displayName" : "Ditto.usdz"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "d3d6bc1208558160fddbbede40bc7560",
+    "displayName" : "DodrioM.usdz"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "ba410ebdf643b3b6fe682889fa9d4028",
+    "displayName" : "Dragonair.usdz"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "6f4a5c9f293d5e2c3d04749e6fa8fb34",
+    "displayName" : "Dratini.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Dugtrio.usdz",
+    "libraryIdentifier" : "7bdb46e5fae77c59b7742517d56249c6"
+  },
+  {
+    "displayName" : "Eevee.usdz",
+    "libraryIdentifier" : "9eb6fb02b5c83d114f403cd93ac79e8d",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Ekans.usdz",
+    "libraryIdentifier" : "5403cb6223b829b893ecc043a93baabf",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "42dfcbee675b41adbca71ed13eca07c1",
+    "displayName" : "Farfetch'd.usdz"
+  },
+  {
+    "libraryIdentifier" : "c7e061a103e7aaa3f01a12c2f4a9b471",
+    "format" : "model",
+    "displayName" : "Fearow.usdz"
+  },
+  {
+    "displayName" : "Flareon.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "183860689fa1c0b12c5df5cb54a819ad"
+  },
+  {
+    "libraryIdentifier" : "80ca70811d603fbc2eb47baeb9122ab2",
+    "format" : "model",
+    "displayName" : "GengarMega.usdz"
+  },
+  {
+    "libraryIdentifier" : "695de345042c1b056e6f4d334341e078",
+    "format" : "model",
+    "displayName" : "Geodude.usdz"
+  },
+  {
+    "libraryIdentifier" : "e37258735ad49511117fdf015a1175dc",
+    "format" : "model",
+    "displayName" : "Gloom_F.usdz"
+  },
+  {
+    "libraryIdentifier" : "b31768e69ac97341a3a9f45989fc56a6",
+    "format" : "model",
+    "displayName" : "golbat_m.usdz"
+  },
+  {
+    "displayName" : "Golduck.usdz",
+    "libraryIdentifier" : "0b288967234aa5b1b264ab2af8779cfd",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "5a139521f1fad682aff1f200ab4d3866",
+    "format" : "model",
+    "displayName" : "Golem.usdz"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "f13019fd63b50038ed45e22eb15928ac",
+    "displayName" : "Graveler.usdz"
+  },
+  {
+    "libraryIdentifier" : "97b150f9e699bc078a11594e54ebb952",
+    "displayName" : "Grimer.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Growlithe.usdz",
+    "libraryIdentifier" : "e3722ff961e396eae4547b53c4b080b1",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "336e5f02ff3955da92d79b0b9bdd3c8d",
+    "displayName" : "GyaradosMega.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Hitmonchan.usdz",
+    "libraryIdentifier" : "52fdd3e55cb0c11d093edd46568c030c"
+  },
+  {
+    "libraryIdentifier" : "c7dac6028f8ded62d67ce1fe89c115fa",
+    "format" : "model",
+    "displayName" : "Ivysaur.usdz"
+  },
+  {
+    "displayName" : "Jigglypuff.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "4dea37b899488e59ed1351dab4e9f968"
+  },
+  {
+    "displayName" : "Jolteon.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "82c31f5e177eefaad818f48521d0ce55"
+  },
+  {
+    "libraryIdentifier" : "d6d5213eb7d02de087ffdbd9dffdd9de",
+    "displayName" : "KadabraM.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "ca305c4c31c6eca9684e6d19200d2c28",
+    "displayName" : "Kakuna.usdz"
+  },
+  {
+    "libraryIdentifier" : "57046c254cd1ff4668a9e4ed02982e19",
+    "displayName" : "KangaskhanMega.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Machamp.usdz",
+    "libraryIdentifier" : "2fb88a6f6b0a506331f0aed726a48a42",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "7adaf7da2d72fdfd1da17ee7903c3692",
+    "displayName" : "Machoke.usdz"
+  },
+  {
+    "displayName" : "Machop.usdz",
+    "libraryIdentifier" : "d55a91fcfff438b24b7d0b8889c870b4",
+    "format" : "model"
+  },
+  {
+    "displayName" : "MagikarpF.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "5f89652df1a7557416388dd6510e0c97"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Magnemite.usdz",
+    "libraryIdentifier" : "09a81d80f0aaa37294616fe564beea49"
+  },
+  {
+    "libraryIdentifier" : "dc8980e4bd7469b3dd63ee9d7a81d99d",
+    "displayName" : "Magneton.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Mankey.usdz",
+    "libraryIdentifier" : "5db566257826e51f288f15900847fcab"
+  },
+  {
+    "libraryIdentifier" : "fc5d0e1183d0d54676e64dcb4f23b050",
+    "format" : "model",
+    "displayName" : "Marowak.usdz"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "cab9e2c98111a3b5fa30fdac79bf55eb",
+    "displayName" : "Meowth.usdz"
+  },
+  {
+    "displayName" : "Metapod.usdz",
+    "libraryIdentifier" : "e89972cf8d6f409c14a4b111c6496e1b",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "f8b526384e56fd4acc3f377ab0d19ac5",
+    "format" : "model",
+    "displayName" : "Mew.usdz"
+  },
+  {
+    "libraryIdentifier" : "b74d5c418aa76b9336d1eba6deefe726",
+    "displayName" : "Mewtwo.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "MewtwoMegaY.usdz",
+    "libraryIdentifier" : "b9136f580605c51e6af2e6f3c35251db"
+  },
+  {
+    "libraryIdentifier" : "b3c1a060cf34bdb549bea197d0bf82db",
+    "format" : "model",
+    "displayName" : "Moltres.usdz"
+  },
+  {
+    "displayName" : "MrMime.usdz",
+    "libraryIdentifier" : "2493738f9aeab17bfbc09c2181815fcd",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Muk.usdz",
+    "libraryIdentifier" : "02d51cf0848c7dbe68481fb2fb2a47de",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Nidoking.usdz",
+    "libraryIdentifier" : "2062154a7f770c1b811665855800206b"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Nidoqueen.usdz",
+    "libraryIdentifier" : "c37c51e3e0c2d905de2dddaa9a013c4d"
+  },
+  {
+    "displayName" : "NidoranF.usdz",
+    "libraryIdentifier" : "e1ed19b0c8add9daf10873aedfae324f",
+    "format" : "model"
+  },
+  {
+    "displayName" : "NidoranM.usdz",
+    "libraryIdentifier" : "012b2efa4f4917a2d052a0fc5b1ec0ff",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Nidorina.usdz",
+    "libraryIdentifier" : "6357f895fc588be61b92b8218c7f9cb4",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "2d0a2707f85d76e755b1788366748b35",
+    "format" : "model",
+    "displayName" : "Nidorino.usdz"
+  },
+  {
+    "displayName" : "Ninetales.usdz",
+    "libraryIdentifier" : "f806e53815e605be0ac0532cc380c93a",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Oddish.usdz",
+    "libraryIdentifier" : "c891286de33a57e7d811b56254657157",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "94dc3bf5ac2bb82a4635df14171d2d09",
+    "displayName" : "Omanyte.usdz"
+  },
+  {
+    "displayName" : "Omastar.usdz",
+    "libraryIdentifier" : "c74014d3c4df307a3ddd96aa74632d40",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Paras.usdz",
+    "libraryIdentifier" : "b707f1fccb5d660cd623d08d12085da6"
+  },
+  {
+    "libraryIdentifier" : "b70185fc43fd63ff437da73e08ee72eb",
+    "displayName" : "Parasect.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "2f9d8990c61f33a365d8fac8f48a1fad",
+    "displayName" : "Persian.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Pidgeot_Mega.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "cc4c1f20ccd60decc8edaf88f260bb16"
+  },
+  {
+    "libraryIdentifier" : "cc3f77b8daaf2727f157f7ccb7ac0938",
+    "format" : "model",
+    "displayName" : "Pidgeotto.usdz"
+  },
+  {
+    "libraryIdentifier" : "713da8692fd70bac960647e1cc61e1b7",
+    "format" : "model",
+    "displayName" : "Pidgey.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "PikachuF.usdz",
+    "libraryIdentifier" : "2e42625cb2437c933b049ded1deb55df"
+  },
+  {
+    "displayName" : "Pinsir.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "8ad1d86f8dc2ca7b58baa9ba134a6356"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Poliwag.usdz",
+    "libraryIdentifier" : "8aff3e15369485a3d407fe546c2f4e70"
+  },
+  {
+    "displayName" : "Poliwhirl.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "a691f5dcb964a74745e5f0d8ad1d2053"
+  },
+  {
+    "libraryIdentifier" : "baf0b1a70f51163b1d0f212a633c8485",
+    "format" : "model",
+    "displayName" : "Poliwrath.usdz"
+  },
+  {
+    "displayName" : "Ponyta.usdz",
+    "libraryIdentifier" : "b508d08b7f8e07a3d5c9e13d8af513a0",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Porygon.usdz",
+    "libraryIdentifier" : "618f1d2d2075c6a833f1dd6d887a5aac",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "5c109e95cad374846186b2d0236a085c",
+    "format" : "model",
+    "displayName" : "Primeape.usdz"
+  },
+  {
+    "displayName" : "Psyduck.usdz",
+    "libraryIdentifier" : "72e03e6f647f1f39e9fe29225699e427",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "RaichuF.usdz",
+    "libraryIdentifier" : "0eccf9a91716a1de47a1cbd738120733"
+  },
+  {
+    "displayName" : "Rapidash.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "053cfbb5ef329e86cac63964099a0838"
+  },
+  {
+    "libraryIdentifier" : "b9c825680f61bc749717e355eb56904c",
+    "displayName" : "Raticate_M.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "22a2c78c794c8d2261780e897c478963",
+    "displayName" : "Rattata_M.usdz"
+  },
+  {
+    "displayName" : "RhydonF.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "9265fbadbe9150df42a4aca799cb9c48"
+  },
+  {
+    "displayName" : "Sandshrew.usdz",
+    "libraryIdentifier" : "6eba876417f779d31c4fdebbfb4cd393",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Sandslash.usdz",
+    "libraryIdentifier" : "8192af93b0de9cb3146bfea49a05db59",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "846bdbbfa6ca88dca42e8233e6f2cf67",
+    "displayName" : "Scyther.usdz"
+  },
+  {
+    "libraryIdentifier" : "5ce26293c44c5b4e326367dd185a89fb",
+    "format" : "model",
+    "displayName" : "Seel.usdz"
+  },
+  {
+    "displayName" : "Slowbro.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "b0ca4bde91f611604d2ee546c407450d"
+  },
+  {
+    "displayName" : "Slowpoke.usdz",
+    "libraryIdentifier" : "6c8fea6270c7133c00d72a72866851e0",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "1be5a4f8b7b3d9acfdcd4b4297753cf6",
+    "format" : "model",
+    "displayName" : "Snorlax.usdz"
+  },
+  {
+    "libraryIdentifier" : "77f1f47aa8996c0e70dcbfbb6070779e",
+    "displayName" : "Spearow.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Squirtle.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "8e83999aa61ac4f148b41dffcdc05323"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Starmie.usdz",
+    "libraryIdentifier" : "02d7ba3bb2f56a31a0e68f1a9c55adb0"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "87a828bccb02b1162a7f025bf7fa4798",
+    "displayName" : "Staryu.usdz"
+  },
+  {
+    "displayName" : "Super Training Stage.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "d3f909f6d9a47396f36f93f999ff2565"
+  },
+  {
+    "displayName" : "Tentacool.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "3950f1e63c59bc5e81635072b46e2cc1"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "d661426b76fb11b96d26ed48bdfbb72f",
+    "displayName" : "Tentacruel.usdz"
+  },
+  {
+    "libraryIdentifier" : "5c6aec429804bb67a088c153eaabf51e",
+    "format" : "model",
+    "displayName" : "Vaporeon.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Venomoth.usdz",
+    "libraryIdentifier" : "5abf15a04125c5e036911173118d2802"
+  },
+  {
+    "displayName" : "Venonat.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "9297f89cda91bb561d8173ab36f9fb98"
+  },
+  {
+    "libraryIdentifier" : "8556ca7fd1ecef9ff4455df85a0aaef7",
+    "format" : "model",
+    "displayName" : "VenusaurMega.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Victreebel.usdz",
+    "libraryIdentifier" : "b7c9c6fda406fac82928f6eb734a07cd"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Vileplume_F.usdz",
+    "libraryIdentifier" : "6eabc88294ea07e9bc85fc78af148586"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "19ff03c4317f91fb0f25f7bb2d7f07c1",
+    "displayName" : "Voltorb.usdz"
+  },
+  {
+    "libraryIdentifier" : "272f19dd773d1c0c045e93c693dbc188",
+    "format" : "model",
+    "displayName" : "Vulpix.usdz"
+  },
+  {
+    "displayName" : "Wartortle.usdz",
+    "libraryIdentifier" : "2058ae8f0c8674c5dd49d4a62bb80778",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Weedle.usdz",
+    "libraryIdentifier" : "d8be164e4dae59f1dd3701fa3a06fae1",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Weepinbell.usdz",
+    "libraryIdentifier" : "879f985d9f2e51af3dee3113f59414ed",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Wigglytuff.usdz",
+    "libraryIdentifier" : "93af43b7c581c844edd9a50aa4eb04ac",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Zapdos.usdz",
+    "libraryIdentifier" : "a043c8409655cb5ce9b28f1ca56e1be7",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "c2958b8689b708ec289dfcad3dd9d23a",
+    "format" : "model",
+    "displayName" : "zubat_m.usdz"
+  },
+  {
+    "libraryIdentifier" : "5f969126adc67c810f400cdb9883e3ca",
+    "displayName" : "Abra.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "a529ae083c2c161971475061396b7347",
+    "format" : "model",
+    "displayName" : "Aerodactyl.usdz"
+  },
+  {
+    "displayName" : "AlakazamMega.usdz",
+    "libraryIdentifier" : "8a1bb059919bd04d7a80cf88d48c7fe3",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "b60d76c0cfef56a96276728daee6943f",
+    "format" : "model",
+    "displayName" : "Arbok.usdz"
+  },
+  {
+    "displayName" : "Arcanine.usdz",
+    "libraryIdentifier" : "7011493b881ae305adf779a1e4e6c266",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Articuno.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "00eb4f8d7c1ac53401e7f065f60a0076"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "1045a20a3229431cb338448b312f30bc",
+    "displayName" : "Beedrill.usdz"
+  },
+  {
+    "libraryIdentifier" : "209bcf8b388497b8238c5a4aa6e9b662",
+    "format" : "model",
+    "displayName" : "Bellsprout.usdz"
+  },
+  {
+    "displayName" : "Blastoise.usdz",
+    "libraryIdentifier" : "4e8fce83251d34c1d4d9595b209c043f",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "c98897676c2bb7c93e2bbda3f2f71cc4",
+    "displayName" : "Bulbasaur.usdz"
+  },
+  {
+    "libraryIdentifier" : "303f6535fbb1c5f658df50817ccce3c6",
+    "format" : "model",
+    "displayName" : "ButterfreeF.usdz"
+  },
+  {
+    "displayName" : "Caterpie.usdz",
+    "libraryIdentifier" : "79de3051dd1f93fb2634f0f7c02b5981",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "CharizardMegaY.usdz",
+    "libraryIdentifier" : "69203d057ff7eba446de1e646118a32d"
+  },
+  {
+    "libraryIdentifier" : "aa11bb7a6f93c242795225f9207229df",
+    "format" : "model",
+    "displayName" : "Charmander.usdz"
+  },
+  {
+    "libraryIdentifier" : "5f7bc1b4cb62475bf1553923416e10e5",
+    "format" : "model",
+    "displayName" : "Charmeleon.usdz"
+  },
+  {
+    "libraryIdentifier" : "7aa5e1c4e872173694ed02124550d0ac",
+    "displayName" : "Clefable.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "clefairy.usdz",
+    "libraryIdentifier" : "edf202a83aa11048397fe27e6a5b77b3",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "da4928ae1953cc35f8dd30b65b22a887",
+    "format" : "model",
+    "displayName" : "Cloyster.usdz"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "e71f06aae4d06309b768543b9af05170",
+    "displayName" : "Cubone.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Dewgong.usdz",
+    "libraryIdentifier" : "a08f87430b391a6d2180b90bcef894af"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "e250b6f034926f35c53cd333cecd7968",
+    "displayName" : "Diglett.usdz"
+  },
+  {
+    "libraryIdentifier" : "f784532b8079b08c9eb8335b4c35fb03",
+    "format" : "model",
+    "displayName" : "Ditto.usdz"
+  },
+  {
+    "displayName" : "DodrioM.usdz",
+    "libraryIdentifier" : "966ea6593012aa1f7dbbee5e67776c85",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "8f7efb0b2f5e05413fb3c43da6f9ce58",
+    "displayName" : "Dragonair.usdz"
+  },
+  {
+    "displayName" : "Dratini.usdz",
+    "libraryIdentifier" : "a818fbc722096e630cceec258cfaf925",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "5e7b0f22ef838b2a3fea2a88862352f4",
+    "format" : "model",
+    "displayName" : "Dugtrio.usdz"
+  },
+  {
+    "libraryIdentifier" : "84eb467c4c625d3db03000ca58cdfb3a",
+    "displayName" : "Eevee.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Ekans.usdz",
+    "libraryIdentifier" : "37737e5645491163ac6568dd12a24eb8"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Farfetch'd.usdz",
+    "libraryIdentifier" : "61bdbee04056f4ff8f25ca74d956ec62"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Fearow.usdz",
+    "libraryIdentifier" : "0ca07562352f1a7ff3ecc38e3da2c78c"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Flareon.usdz",
+    "libraryIdentifier" : "a6a6305860456d6f0610599acaf63b7d"
+  },
+  {
+    "libraryIdentifier" : "3ef2f843c503a5eddb5452e01180cdfe",
+    "displayName" : "GengarMega.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Geodude.usdz",
+    "libraryIdentifier" : "2307f199ff0f0c480c0418e71787b269"
+  },
+  {
+    "libraryIdentifier" : "b474f49ad7d9708f89475e762f8ade6a",
+    "displayName" : "Gloom_F.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "golbat_m.usdz",
+    "libraryIdentifier" : "84ee6185d14b8226365af5d8595a58d7",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Golduck.usdz",
+    "libraryIdentifier" : "3f372f8ea7952f3248af5595a834357a"
+  },
+  {
+    "libraryIdentifier" : "dd4543d9cac2e6a4462b8560d3735a3e",
+    "displayName" : "Golem.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Graveler.usdz",
+    "libraryIdentifier" : "0b736ea7d0e33fb52a42d9f95b37c732",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Grimer.usdz",
+    "libraryIdentifier" : "32e903de669ea897022ee3b631e781cf"
+  },
+  {
+    "displayName" : "Growlithe.usdz",
+    "libraryIdentifier" : "23cbffd042f79cf87d3f7ccb014c109c",
+    "format" : "model"
+  },
+  {
+    "displayName" : "GyaradosMega.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "c412ae531d1dc96bf8e8921ceaee7ffd"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Hitmonchan.usdz",
+    "libraryIdentifier" : "88c465a40cdad40cefe99d13fad839dc"
+  },
+  {
+    "displayName" : "Ivysaur.usdz",
+    "libraryIdentifier" : "17ede97797155b8cc1e4cb33776dfd1f",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Jigglypuff.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "8e91465081b53e48e3d29ecb4a78e37a"
+  },
+  {
+    "libraryIdentifier" : "ae86d40e9ac4de1e9c2bbeb51c65cfb0",
+    "format" : "model",
+    "displayName" : "Jolteon.usdz"
+  },
+  {
+    "displayName" : "KadabraM.usdz",
+    "libraryIdentifier" : "30ca814291ed10087ea4ba87a57db94d",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Kakuna.usdz",
+    "libraryIdentifier" : "938b723abc83f3638f6337a54f4e06f6"
+  },
+  {
+    "libraryIdentifier" : "8e50aee4706049c0c9877c1a16c39cc9",
+    "format" : "model",
+    "displayName" : "KangaskhanMega.usdz"
+  },
+  {
+    "displayName" : "Machamp.usdz",
+    "libraryIdentifier" : "c5c4c060bd3ac5dc17175bff50b71f0e",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Machoke.usdz",
+    "libraryIdentifier" : "0d0f90a2b9fe67b9f427fb97949fcd2e",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Machop.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "11239b3d80480919b7b2d3b5bbb5f106"
+  },
+  {
+    "format" : "model",
+    "displayName" : "MagikarpF.usdz",
+    "libraryIdentifier" : "14c56fdea165821a9da41000fbfd24ed"
+  },
+  {
+    "displayName" : "Magnemite.usdz",
+    "libraryIdentifier" : "9dd2da98ebea21435ace477c6011a7e6",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Magneton.usdz",
+    "libraryIdentifier" : "40f9c7803a27bcb7c5d1b4931fe73e12"
+  },
+  {
+    "libraryIdentifier" : "38dc6c0d7ecab573951d59f6ea40592d",
+    "format" : "model",
+    "displayName" : "Mankey.usdz"
+  },
+  {
+    "libraryIdentifier" : "0f62b2da034bae490a85c31c2bbd66cf",
+    "displayName" : "Marowak.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "0701631110bbfdf424380d6d828c300d",
+    "displayName" : "Meowth.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "5016c6a6fe46336c315d389d68cdb628",
+    "format" : "model",
+    "displayName" : "Metapod.usdz"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "c8be5a7f0f794379906743ce7d96be62",
+    "displayName" : "Mew.usdz"
+  },
+  {
+    "displayName" : "Mewtwo.usdz",
+    "libraryIdentifier" : "35aba7ede315bf8d1567ec08470daccb",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "09fc6533a733712f660532a4b7af66a3",
+    "format" : "model",
+    "displayName" : "MewtwoMegaY.usdz"
+  },
+  {
+    "displayName" : "Moltres.usdz",
+    "libraryIdentifier" : "66958af0cf0b07bd343e5e24545354a7",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "2dded1f6844fc2bd7f07a4cecf834600",
+    "displayName" : "MrMime.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Muk.usdz",
+    "libraryIdentifier" : "eabd8e002ff6e9e576b121ff33f57f23"
+  },
+  {
+    "displayName" : "Nidoking.usdz",
+    "libraryIdentifier" : "06e580672d998adad356bed8c10511bc",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Nidoqueen.usdz",
+    "libraryIdentifier" : "c22f3bceb7888b0196e4d065fcc34e7c"
+  },
+  {
+    "format" : "model",
+    "displayName" : "NidoranF.usdz",
+    "libraryIdentifier" : "8e8c228b6c0b99ac7f14223aed69db6f"
+  },
+  {
+    "displayName" : "NidoranM.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "fcfd3526be264e23d455f68439f2daca"
+  },
+  {
+    "displayName" : "Nidorina.usdz",
+    "libraryIdentifier" : "79d235e3459060f9acdee3204f1a5bf2",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "7102f25f3b54c568bad2ca2e6a012120",
+    "displayName" : "Nidorino.usdz"
+  },
+  {
+    "libraryIdentifier" : "e6af318dce9481363a248886f9837d33",
+    "displayName" : "Ninetales.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Oddish.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "cda447e099008c564beae8525c033111"
+  },
+  {
+    "libraryIdentifier" : "018924d91503356ecabf167acca7d2e7",
+    "displayName" : "Omanyte.usdz",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "531649437b32dc1933fa446c8cbd5211",
+    "displayName" : "Omastar.usdz"
+  },
+  {
+    "libraryIdentifier" : "59c4f9969a8283f269fee79ecab94042",
+    "displayName" : "Paras.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "4eb8d119b2cf8b02f6ebc2563b0f59eb",
+    "format" : "model",
+    "displayName" : "Parasect.usdz"
+  },
+  {
+    "libraryIdentifier" : "c6ab9a91334c71714c6d63e51c740021",
+    "displayName" : "Persian.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "d7ff385c65f8d566e9f55b617322b1dd",
+    "displayName" : "Pidgeot_Mega.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "527df3dc9776a243861b5f4fb9635bef",
+    "format" : "model",
+    "displayName" : "Pidgeotto.usdz"
+  },
+  {
+    "libraryIdentifier" : "b73660b431eeb15b7aaa8cde98856eb6",
+    "displayName" : "Pidgey.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "PikachuF.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "a88de4aa08caf266eab948a05bcffa5a"
+  },
+  {
+    "libraryIdentifier" : "fabbd1b862db9f12066bad5489c10a20",
+    "displayName" : "Pinsir.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Poliwag.usdz",
+    "libraryIdentifier" : "2bc4053177dbfd606f74a8516efd9116",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "00629593e785477d48ddd200691dd5e2",
+    "displayName" : "Poliwhirl.usdz"
+  },
+  {
+    "displayName" : "Poliwrath.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "605a0049afeda50d5a8d3893d9358331"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Ponyta.usdz",
+    "libraryIdentifier" : "6a394662f3891dfeaa49f5d819596b54"
+  },
+  {
+    "libraryIdentifier" : "07e90f96fbf018017f5f8f7848dd2791",
+    "displayName" : "Porygon.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Primeape.usdz",
+    "libraryIdentifier" : "a8e7350815b56224058b8b7dcfa42f37",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "ad7dbae78af783572af8173fcad694fa",
+    "format" : "model",
+    "displayName" : "Psyduck.usdz"
+  },
+  {
+    "displayName" : "RaichuF.usdz",
+    "libraryIdentifier" : "6ca5fbc77e0197b48733c031e98b4dab",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Rapidash.usdz",
+    "libraryIdentifier" : "67e075bed323bbd99b051b44137f65cf"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Raticate_M.usdz",
+    "libraryIdentifier" : "c478a051837b82ae47b1826f80c15b11"
+  },
+  {
+    "libraryIdentifier" : "7c1daff351e76d7764c143453c1e17b9",
+    "displayName" : "Rattata_M.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "f7819603962c7a24c03d7551df9acf03",
+    "format" : "model",
+    "displayName" : "RhydonF.usdz"
+  },
+  {
+    "libraryIdentifier" : "e2106e68043e76eba97287d34c729af9",
+    "displayName" : "Sandshrew.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Sandslash.usdz",
+    "libraryIdentifier" : "ef4c56a9091ddba6048b6623bdc9c4d3",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "dee13688a9487aa4ccd794f4a8e9e691",
+    "format" : "model",
+    "displayName" : "Scyther.usdz"
+  },
+  {
+    "libraryIdentifier" : "3b50a642106894997b39a2cc90d5f43c",
+    "format" : "model",
+    "displayName" : "Seel.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Slowbro.usdz",
+    "libraryIdentifier" : "a947f8c6c6255d97bb48f4a813cb2f5d"
+  },
+  {
+    "libraryIdentifier" : "a97301d0036f43ac6acf9bbeb95982d3",
+    "format" : "model",
+    "displayName" : "Slowpoke.usdz"
+  },
+  {
+    "libraryIdentifier" : "69eb78e5a8883adab842566155e8a2e1",
+    "format" : "model",
+    "displayName" : "Snorlax.usdz"
+  },
+  {
+    "displayName" : "Spearow.usdz",
+    "libraryIdentifier" : "35abce7d6c300f899f2b8d30f80d4b95",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Squirtle.usdz",
+    "libraryIdentifier" : "500ce5a021e17ac33269bf79454e172d"
+  },
+  {
+    "libraryIdentifier" : "628a9a204ba134b77af220c91e90422b",
+    "format" : "model",
+    "displayName" : "Starmie.usdz"
+  },
+  {
+    "displayName" : "Staryu.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "808609028566ced341271a3a77ee2c0a"
+  },
+  {
+    "displayName" : "Super Training Stage.usdz",
+    "libraryIdentifier" : "eb5ac1cfc0ff6003c3694ee75ffd6b6d",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Tentacool.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "51c9db9bf57e47cd222dd9c262351c7f"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Tentacruel.usdz",
+    "libraryIdentifier" : "1adcf68eeca61bcadee97eda72fa67fc"
+  },
+  {
+    "libraryIdentifier" : "121ca8113141ca656a60f3b7900ae4fa",
+    "displayName" : "Vaporeon.usdz",
+    "format" : "model"
+  },
+  {
+    "displayName" : "Venomoth.usdz",
+    "libraryIdentifier" : "9d7e02f74db3c5fa2c8b789668f5e256",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Venonat.usdz",
+    "libraryIdentifier" : "8297aab462e889b471d957da1f1cce89"
+  },
+  {
+    "libraryIdentifier" : "f20038b0df891d3bb3ea767d8a9de0aa",
+    "format" : "model",
+    "displayName" : "VenusaurMega.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Victreebel.usdz",
+    "libraryIdentifier" : "d9a26e4b5548603706e7d0f1e3bb9f63"
+  },
+  {
+    "libraryIdentifier" : "ca59d5ea47f8ed9f1bbcc2564a6fc663",
+    "format" : "model",
+    "displayName" : "Vileplume_F.usdz"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Voltorb.usdz",
+    "libraryIdentifier" : "b7662c253d478342582b491dee50eb3f"
+  },
+  {
+    "libraryIdentifier" : "fba2601a62cbeab2993862ad5f75fefd",
+    "format" : "model",
+    "displayName" : "Vulpix.usdz"
+  },
+  {
+    "displayName" : "Wartortle.usdz",
+    "libraryIdentifier" : "c21975fe7cf8ccff5a6eee6f6cb99dee",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "5f66016edade3c2cedbd8d08c67ce5a1",
+    "displayName" : "Weedle.usdz"
+  },
+  {
+    "libraryIdentifier" : "fbfcd1de5ad32a1349ca58e8a88752e1",
+    "format" : "model",
+    "displayName" : "Weepinbell.usdz"
+  },
+  {
+    "displayName" : "Wigglytuff.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "6cf3a2bd3973ffbac4307bc9ecde8bb4"
+  },
+  {
+    "displayName" : "Zapdos.usdz",
+    "format" : "model",
+    "libraryIdentifier" : "35c4fcaab53ca8a8c856aa036c2ae681"
+  },
+  {
+    "libraryIdentifier" : "1d0eba43ede8f3d517916e77ca0b074d",
+    "displayName" : "zubat_m.usdz",
+    "format" : "model"
+  }
+]
