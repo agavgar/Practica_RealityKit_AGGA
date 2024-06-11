@@ -110,26 +110,59 @@
                             "typeName" : "String",
                             "value" : "Rhyhorn"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "wood",
+                              "overrides" : {
+
+                              }
+                            }
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ],
+                        [
+                          "rigidBody-shapeType",
+                          {
+                            "typeName" : "String",
+                            "value" : "box"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        -12.013476,
+                        -16.612175,
                         0.10783088,
-                        0,
+                        -4.1048775,
                         1
                       ]
                     }
@@ -223,26 +256,40 @@
                             "typeName" : "String",
                             "value" : "Magnemite"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1.0000001,
-                        -2.3813452e-07,
-                        -2.3841842e-07,
+                        1.5000002,
+                        -3.5720177e-07,
+                        -3.5762764e-07,
                         0,
-                        -2.3813452e-07,
-                        0.0011915198,
-                        -0.99999934,
+                        -3.5720177e-07,
+                        0.0017872797,
+                        -1.499999,
                         0,
-                        2.3841842e-07,
-                        0.99999934,
-                        0.0011915198,
+                        3.5762764e-07,
+                        1.499999,
+                        0.0017872797,
                         0,
-                        72.45458,
-                        -0.042279433,
-                        0.17578384,
+                        61.812984,
+                        -0.04227808,
+                        -4.8598323,
                         1
                       ]
                     }
@@ -329,26 +376,40 @@
                             "typeName" : "UUID",
                             "value" : "51139A23-03AC-4872-9535-49D0E71B6698"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        58.949,
-                        -0.04319322,
-                        0,
+                        51.40758,
+                        -0.04319191,
+                        -4.423234,
                         1
                       ]
                     }
@@ -442,26 +503,40 @@
                             "typeName" : "String",
                             "value" : "Muk"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.9999999,
-                        -2.401756e-07,
-                        -2.384121e-07,
+                        1.4999999,
+                        -3.6026336e-07,
+                        -3.5761818e-07,
                         0,
-                        -2.401756e-07,
-                        -0.007369756,
-                        -0.9999727,
+                        -3.6026347e-07,
+                        -0.011054373,
+                        -1.4999591,
                         0,
-                        2.3841206e-07,
-                        0.9999727,
-                        -0.007369756,
+                        3.576181e-07,
+                        1.4999591,
+                        -0.011054373,
                         0,
-                        104.31475,
-                        0.35074326,
-                        0.79162973,
+                        87.69741,
+                        0.35074425,
+                        0.6761308,
                         1
                       ]
                     }
@@ -555,26 +630,40 @@
                             "typeName" : "String",
                             "value" : "Polygon"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        24.57909,
-                        0,
-                        0,
+                        28.149897,
+                        8.34465e-07,
+                        5.1818805,
                         1
                       ]
                     }
@@ -668,26 +757,40 @@
                             "typeName" : "String",
                             "value" : "Kakuna"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        25.63224,
-                        -0.0072076917,
-                        0,
+                        26.05031,
+                        -0.0072084367,
+                        -4.658637,
                         1
                       ]
                     }
@@ -781,26 +884,40 @@
                             "typeName" : "String",
                             "value" : "Omastar"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        39.94413,
-                        -0.00012892485,
-                        0,
+                        40.610874,
+                        -0.00012862682,
+                        4.831809,
                         1
                       ]
                     }
@@ -894,26 +1011,40 @@
                             "typeName" : "String",
                             "value" : "Primeape"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        22.738758,
+                        23.701506,
                         0,
-                        -0.90311307,
+                        -4.959043,
                         1
                       ]
                     }
@@ -1007,26 +1138,40 @@
                             "typeName" : "String",
                             "value" : "Dugtrio"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        133.87114,
-                        0.00069624186,
-                        0,
+                        109.74547,
+                        0.0006943941,
+                        0.9606378,
                         1
                       ]
                     }
@@ -1120,26 +1265,40 @@
                             "typeName" : "String",
                             "value" : "Volteon"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        32.35217,
-                        -1.1920929e-07,
-                        0,
+                        34.782497,
+                        5.9604645e-08,
+                        -0.09477162,
                         1
                       ]
                     }
@@ -1233,26 +1392,40 @@
                             "typeName" : "String",
                             "value" : "Golduck"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        118.64615,
-                        0.003170371,
-                        0,
+                        93.450195,
+                        0.0031706095,
+                        -3.748102,
                         1
                       ]
                     }
@@ -1346,26 +1519,40 @@
                             "typeName" : "String",
                             "value" : "Golem"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        106.61897,
-                        0.02084732,
-                        0,
+                        87.53947,
+                        0.020846844,
+                        -4.160202,
                         1
                       ]
                     }
@@ -1459,26 +1646,40 @@
                             "typeName" : "String",
                             "value" : "Beelsprout"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        122.076515,
-                        -0.018455386,
-                        0,
+                        101.78515,
+                        -0.01845622,
+                        6.792824,
                         1
                       ]
                     }
@@ -1572,6 +1773,32 @@
                             "typeName" : "String",
                             "value" : "Training"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "lead",
+                              "overrides" : {
+
+                              }
+                            }
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
@@ -1591,7 +1818,7 @@
                         0,
                         13.123196,
                         0.21495819,
-                        -19.5712,
+                        -31.502771,
                         1
                       ]
                     }
@@ -1685,26 +1912,40 @@
                             "typeName" : "String",
                             "value" : "Ditto"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.99999946,
-                        -2.3841842e-07,
-                        -2.3841845e-07,
+                        1.4999999,
+                        -3.5762784e-07,
+                        -3.5762787e-07,
                         0,
-                        -2.384183e-07,
-                        5.0841356e-07,
-                        -0.9999993,
+                        -3.5762767e-07,
+                        7.6262086e-07,
+                        -1.4999999,
                         0,
-                        2.3841851e-07,
-                        0.9999993,
-                        5.0841356e-07,
+                        3.5762804e-07,
+                        1.4999999,
+                        7.6262086e-07,
                         0,
-                        84.18906,
-                        0.001683031,
-                        0.1668289,
+                        71.551445,
+                        0.0016825497,
+                        -4.7900777,
                         1
                       ]
                     }
@@ -1791,26 +2032,40 @@
                             "typeName" : "UUID",
                             "value" : "84B44161-7194-419B-85BD-0389CCB8D93F"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        7.472301,
-                        -0.013719916,
-                        3.0391018,
+                        0.8833201,
+                        -0.013718188,
+                        0.3516376,
                         1
                       ]
                     }
@@ -1904,26 +2159,40 @@
                             "typeName" : "String",
                             "value" : "Mew"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        21.455456,
-                        0.014989704,
-                        0,
+                        23.575815,
+                        0.014990017,
+                        4.9974337,
                         1
                       ]
                     }
@@ -2017,26 +2286,40 @@
                             "typeName" : "String",
                             "value" : "Pidgeotto"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        41.982845,
-                        0.015800238,
-                        0,
+                        41.722897,
+                        0.015799582,
+                        -0.37328267,
                         1
                       ]
                     }
@@ -2130,22 +2413,55 @@
                             "typeName" : "String",
                             "value" : "Snorlax"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "lead",
+                              "overrides" : {
+
+                              }
+                            }
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ],
+                        [
+                          "rigidBody-shapeType",
+                          {
+                            "typeName" : "String",
+                            "value" : "default"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         -15.976849,
                         0,
@@ -2243,26 +2559,40 @@
                             "typeName" : "String",
                             "value" : "Blastoise"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        -5.385191,
+                        -16.779404,
                         0,
-                        0,
+                        -9.000445,
                         1
                       ]
                     }
@@ -2356,26 +2686,40 @@
                             "typeName" : "String",
                             "value" : "Nidoran♂"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        49.882515,
-                        0.00021883845,
-                        0,
+                        46.093956,
+                        0.00021889806,
+                        -0.12702072,
                         1
                       ]
                     }
@@ -2469,26 +2813,40 @@
                             "typeName" : "String",
                             "value" : "Machamp"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        94.20237,
-                        0.0029690266,
-                        0,
+                        82.709145,
+                        0.0029697418,
+                        5.513121,
                         1
                       ]
                     }
@@ -2582,26 +2940,40 @@
                             "typeName" : "String",
                             "value" : "Clefairy"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        117.061386,
-                        0.0016099215,
-                        0,
+                        92.86571,
+                        0.0016124547,
+                        0.82474947,
                         1
                       ]
                     }
@@ -2695,26 +3067,40 @@
                             "typeName" : "String",
                             "value" : "Charizard"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        151.9344,
-                        -0.0697453,
-                        0,
+                        118.277214,
+                        -0.069745064,
+                        8.141361,
                         1
                       ]
                     }
@@ -2808,22 +3194,36 @@
                             "typeName" : "String",
                             "value" : "Poliwag"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         26.931858,
                         5.9604645e-07,
@@ -2921,26 +3321,40 @@
                             "typeName" : "String",
                             "value" : "Poliwrath"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        34.3318,
-                        0,
-                        0,
+                        35.739883,
+                        4.7683716e-07,
+                        4.7568526,
                         1
                       ]
                     }
@@ -3034,26 +3448,40 @@
                             "typeName" : "String",
                             "value" : "Jigglypuff"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        76.25095,
-                        -0.008302331,
-                        0,
+                        61.637974,
+                        -0.008300483,
+                        -9.537887,
                         1
                       ]
                     }
@@ -3147,26 +3575,40 @@
                             "typeName" : "String",
                             "value" : "Venosaur"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        17.973366,
-                        9.7990036e-05,
-                        0,
+                        18.874458,
+                        9.88245e-05,
+                        -0.27556896,
                         1
                       ]
                     }
@@ -3260,26 +3702,40 @@
                             "typeName" : "String",
                             "value" : "Articuno"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.9999997,
-                        -6.983117e-08,
-                        1.6858735e-07,
+                        1.5,
+                        -1.04746775e-07,
+                        2.5288108e-07,
                         0,
-                        -6.983115e-08,
-                        0.70710653,
-                        0.7071065,
+                        -1.04746746e-07,
+                        1.0606604,
+                        1.0606601,
                         0,
-                        -1.6858733e-07,
-                        -0.7071065,
-                        0.70710653,
+                        -2.5288108e-07,
+                        -1.0606601,
+                        1.0606604,
                         0,
-                        -3.706499,
+                        -9.964412,
                         1.0975698,
-                        3.7575233,
+                        -9.781116,
                         1
                       ]
                     }
@@ -3373,26 +3829,40 @@
                             "typeName" : "String",
                             "value" : "Voltorb"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        2.98224,
-                        -0.0005706847,
-                        -1.491423,
+                        9.113753,
+                        -0.0005700588,
+                        -9.807921,
                         1
                       ]
                     }
@@ -3479,26 +3949,40 @@
                             "typeName" : "UUID",
                             "value" : "19537929-375E-4237-BD6E-C35D24CC0341"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        1.9224691,
-                        0.33967602,
-                        3.5746686,
+                        9.582573,
+                        0.3396762,
+                        -0.4552474,
                         1
                       ]
                     }
@@ -3592,26 +4076,40 @@
                             "typeName" : "String",
                             "value" : "Ponyta"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        27.63402,
-                        0,
-                        0,
+                        33.376396,
+                        -9.536743e-07,
+                        -4.637768,
                         1
                       ]
                     }
@@ -3705,26 +4203,40 @@
                             "typeName" : "String",
                             "value" : "Nidoqueen"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        54.66114,
-                        0.00045108795,
-                        0,
+                        52.500313,
+                        0.0004492402,
+                        5.742757,
                         1
                       ]
                     }
@@ -3818,26 +4330,40 @@
                             "typeName" : "String",
                             "value" : "Weedle"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        2.721141,
-                        0.118366,
-                        0,
+                        12.0671425,
+                        0.11836554,
+                        -10.041974,
                         1
                       ]
                     }
@@ -3931,22 +4457,36 @@
                             "typeName" : "String",
                             "value" : "Persian"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         31.813782,
                         0.024457455,
@@ -4044,22 +4584,36 @@
                             "typeName" : "String",
                             "value" : "Staryu"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.9999991,
-                        -2.384183e-07,
-                        -2.3841842e-07,
+                        1.5,
+                        -3.5762775e-07,
+                        -3.5762793e-07,
                         0,
-                        -2.3841808e-07,
-                        1.2875088e-06,
-                        -0.9999989,
+                        -3.5762747e-07,
+                        1.8048247e-06,
+                        -1.4999999,
                         0,
-                        2.3841855e-07,
-                        0.9999989,
-                        1.2875088e-06,
+                        3.5762815e-07,
+                        1.4999999,
+                        1.8048247e-06,
                         0,
                         18.491861,
                         0.27637237,
@@ -4157,26 +4711,40 @@
                             "typeName" : "String",
                             "value" : "Machop"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        87.63916,
-                        -0.0027590394,
-                        0,
+                        75.92892,
+                        -0.0027595162,
+                        5.603301,
                         1
                       ]
                     }
@@ -4270,22 +4838,36 @@
                             "typeName" : "String",
                             "value" : "Caterpie"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         21.655237,
                         0.156904,
@@ -4383,26 +4965,40 @@
                             "typeName" : "String",
                             "value" : "Ekans"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        20.863848,
-                        1.1507701,
-                        0,
+                        21.496422,
+                        1.15077,
+                        5.1800613,
                         1
                       ]
                     }
@@ -4496,26 +5092,40 @@
                             "typeName" : "String",
                             "value" : "Mr. Mime"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        57.003437,
-                        3.4570694e-06,
-                        0,
+                        52.200768,
+                        2.1457672e-06,
+                        -0.21003366,
                         1
                       ]
                     }
@@ -4609,26 +5219,40 @@
                             "typeName" : "String",
                             "value" : "Paras"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        22.870548,
-                        0.009647638,
-                        0,
+                        30.479189,
+                        0.009646773,
+                        -9.914187,
                         1
                       ]
                     }
@@ -4722,22 +5346,36 @@
                             "typeName" : "String",
                             "value" : "Pinsir"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         37.68384,
                         -0.001206994,
@@ -4835,26 +5473,40 @@
                             "typeName" : "String",
                             "value" : "Abra"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        1.4187374,
-                        5.9604645e-08,
-                        -0.042815983,
+                        21.327995,
+                        6.854534e-07,
+                        -9.937641,
                         1
                       ]
                     }
@@ -4948,22 +5600,36 @@
                             "typeName" : "String",
                             "value" : "Vaporeon"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         9.113908,
                         0,
@@ -5066,28 +5732,35 @@
                           "rigidBody-enabled",
                           {
                             "typeName" : "Bool",
-                            "value" : true
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
                           }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        82.97208,
-                        0.0005095005,
-                        0,
+                        71.86349,
+                        0.0005092621,
+                        -0.29692107,
                         1
                       ]
                     }
@@ -5181,26 +5854,40 @@
                             "typeName" : "String",
                             "value" : "Squirtle"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        -0.6864822,
-                        0,
-                        0,
+                        18.744429,
+                        3.2782555e-07,
+                        5.167114,
                         1
                       ]
                     }
@@ -5294,26 +5981,40 @@
                             "typeName" : "String",
                             "value" : "Diglett"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        55.697884,
-                        1.104176e-05,
-                        0,
+                        51.069733,
+                        1.12354755e-05,
+                        -10.1181,
                         1
                       ]
                     }
@@ -5407,26 +6108,40 @@
                             "typeName" : "String",
                             "value" : "Kangaskhan"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        89.61602,
-                        0.0023217201,
-                        0,
+                        77.0846,
+                        0.0023219585,
+                        0.1994918,
                         1
                       ]
                     }
@@ -5520,26 +6235,40 @@
                             "typeName" : "String",
                             "value" : "Wigglytuff"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        1.34825,
-                        0.0037050247,
-                        -2.641233,
+                        9.569995,
+                        0.0037032962,
+                        4.7233305,
                         1
                       ]
                     }
@@ -5633,26 +6362,40 @@
                             "typeName" : "String",
                             "value" : "Tentacool"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        0,
-                        0.010079384,
-                        0,
+                        13.967888,
+                        0.010079175,
+                        5.0517244,
                         1
                       ]
                     }
@@ -5746,26 +6489,40 @@
                             "typeName" : "String",
                             "value" : "Charmander"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        108.01732,
-                        0,
-                        0,
+                        92.452126,
+                        -7.748604e-07,
+                        5.931596,
                         1
                       ]
                     }
@@ -5859,22 +6616,36 @@
                             "typeName" : "String",
                             "value" : "Pidgey"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         22.160395,
                         0.006450206,
@@ -5972,26 +6743,40 @@
                             "typeName" : "String",
                             "value" : "Moltres"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        69.19665,
+                        -9.560826,
                         0.8078749,
-                        0,
+                        0.6159451,
                         1
                       ]
                     }
@@ -6085,26 +6870,40 @@
                             "typeName" : "String",
                             "value" : "Golbat"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        124.80585,
-                        -0.0036553144,
-                        0,
+                        102.47468,
+                        -0.0036551952,
+                        1.6920676,
                         1
                       ]
                     }
@@ -6198,26 +6997,40 @@
                             "typeName" : "String",
                             "value" : "Arcanine"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        81.11582,
-                        5.9604645e-08,
-                        0,
+                        66.72178,
+                        -1.1920929e-07,
+                        -9.057674,
                         1
                       ]
                     }
@@ -6311,26 +7124,40 @@
                             "typeName" : "String",
                             "value" : "Marowak"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        60.19263,
-                        0,
-                        0,
+                        56.87063,
+                        2.3841858e-07,
+                        5.698792,
                         1
                       ]
                     }
@@ -6424,26 +7251,40 @@
                             "typeName" : "String",
                             "value" : "Slowbro"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.99999976,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        0.99999976,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        0.99999976,
+                        1.5,
                         0,
-                        0,
-                        3.6001205e-05,
-                        -5.216503,
+                        0.9185958,
+                        3.528595e-05,
+                        -10.136738,
                         1
                       ]
                     }
@@ -6537,26 +7378,40 @@
                             "typeName" : "String",
                             "value" : "Machoke"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        85.60796,
-                        0,
-                        0,
+                        71.85053,
+                        -5.9604645e-07,
+                        -8.992584,
                         1
                       ]
                     }
@@ -6650,26 +7505,40 @@
                             "typeName" : "String",
                             "value" : "Ivysaur"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        102.59814,
-                        0,
-                        0,
+                        87.63727,
+                        -7.1525574e-07,
+                        5.424635,
                         1
                       ]
                     }
@@ -6763,26 +7632,40 @@
                             "typeName" : "String",
                             "value" : "Scyther"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         -3.5996344,
                         0,
-                        -3.0897875,
+                        -4.8252435,
                         1
                       ]
                     }
@@ -6876,26 +7759,40 @@
                             "typeName" : "String",
                             "value" : "Pikachu"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        21.142366,
-                        0.00014674664,
-                        0,
+                        25.357649,
+                        0.00014585257,
+                        5.297881,
                         1
                       ]
                     }
@@ -6989,26 +7886,40 @@
                             "typeName" : "String",
                             "value" : "Alakazam"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        5.151279,
-                        0.073530436,
-                        -0.92214596,
+                        5.0533366,
+                        0.07353139,
+                        0.14545822,
                         1
                       ]
                     }
@@ -7102,26 +8013,40 @@
                             "typeName" : "String",
                             "value" : "Pidgeot"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        47.23719,
-                        1.7899702,
-                        0,
+                        46.54433,
+                        1.7899694,
+                        5.238554,
                         1
                       ]
                     }
@@ -7215,22 +8140,36 @@
                             "typeName" : "String",
                             "value" : "Weepinbell"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         27.990797,
                         0.14028299,
@@ -7328,22 +8267,36 @@
                             "typeName" : "String",
                             "value" : "Nidoran♀"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         25.204811,
                         0,
@@ -7441,6 +8394,133 @@
                             "typeName" : "String",
                             "value" : "Dragonair"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1.5,
+                        0,
+                        57.004868,
+                        0.30885315,
+                        -0.080990314,
+                        1
+                      ]
+                    }
+                  },
+                  "6129A98F-281E-4305-A254-B673E3F688C8" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:d75f8b383e22b607e6eb896c5181aa03\/UltraBall.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "056191EA-37EE-45CB-AE6F-BC81C2AFB108"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0254,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0254,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0254,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "5AE0A22B-471D-4C00-AA08-563763B63EC6"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Ultraball"
+                          }
                         ]
                       ]
                     },
@@ -7458,9 +8538,9 @@
                         0,
                         1,
                         0,
-                        60.87871,
-                        0.30885208,
-                        0,
+                        -0.9018079,
+                        0.076301605,
+                        7.297825,
                         1
                       ]
                     }
@@ -7554,26 +8634,40 @@
                             "typeName" : "String",
                             "value" : "Raticate"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        24.13634,
-                        0.008037448,
-                        -1.643684,
+                        30.78087,
+                        0.008037567,
+                        -4.893314,
                         1
                       ]
                     }
@@ -7667,26 +8761,40 @@
                             "typeName" : "String",
                             "value" : "Geodude"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        120.62071,
-                        -0.031562775,
-                        0,
+                        94.59906,
+                        -0.031563103,
+                        -10.151114,
                         1
                       ]
                     }
@@ -7780,26 +8888,40 @@
                             "typeName" : "String",
                             "value" : "Aerodactyl"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        12.790285,
-                        0.32247615,
-                        0,
+                        14.140396,
+                        0.32247567,
+                        -0.05358994,
                         1
                       ]
                     }
@@ -7893,26 +9015,40 @@
                             "typeName" : "String",
                             "value" : "Mewtwo"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        65.3986,
-                        4.053116e-06,
-                        0,
+                        61.250435,
+                        3.0994415e-06,
+                        5.877919,
                         1
                       ]
                     }
@@ -8006,26 +9142,40 @@
                             "typeName" : "String",
                             "value" : "Gloom"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        91.621544,
-                        0.00017923117,
-                        0,
+                        76.92444,
+                        0.00017929077,
+                        -4.5201626,
                         1
                       ]
                     }
@@ -8119,22 +9269,36 @@
                             "typeName" : "String",
                             "value" : "Omanyte"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         23.54913,
                         0.03524652,
@@ -8232,26 +9396,40 @@
                             "typeName" : "String",
                             "value" : "Clefable"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        145.50378,
-                        2.849102e-05,
-                        0,
+                        118.41739,
+                        2.9802322e-05,
+                        -10.049896,
                         1
                       ]
                     }
@@ -8345,22 +9523,36 @@
                             "typeName" : "String",
                             "value" : "Sandlslash"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         14.051445,
                         -1.1920929e-07,
@@ -8458,26 +9650,40 @@
                             "typeName" : "String",
                             "value" : "Cubone"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        81.61781,
-                        0,
-                        0,
+                        71.14818,
+                        2.9802322e-08,
+                        5.4786143,
                         1
                       ]
                     }
@@ -8571,26 +9777,40 @@
                             "typeName" : "String",
                             "value" : "Fearow"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        139.16788,
-                        5.9604645e-08,
-                        0,
+                        109.96798,
+                        -4.172325e-07,
+                        -10.535291,
                         1
                       ]
                     }
@@ -8684,26 +9904,40 @@
                             "typeName" : "String",
                             "value" : "Rapidash"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        21.988565,
-                        0,
-                        -3.203275,
+                        21.24955,
+                        3.5762787e-07,
+                        -3.908945,
                         1
                       ]
                     }
@@ -8797,26 +10031,40 @@
                             "typeName" : "String",
                             "value" : "Metapod"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        23.9788,
-                        -0.00010418892,
-                        0,
+                        30.498638,
+                        -0.000103741884,
+                        5.202038,
                         1
                       ]
                     }
@@ -8910,26 +10158,40 @@
                             "typeName" : "String",
                             "value" : "Vaporeon"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        96.09446,
-                        0.01833409,
-                        0,
+                        82.356804,
+                        0.018333256,
+                        0.88656116,
                         1
                       ]
                     }
@@ -9023,26 +10285,40 @@
                             "typeName" : "String",
                             "value" : "Oddish"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        50.72461,
-                        5.8442354e-05,
-                        0,
+                        45.93811,
+                        5.8859587e-05,
+                        -5.831028,
                         1
                       ]
                     }
@@ -9136,26 +10412,40 @@
                             "typeName" : "String",
                             "value" : "Arbok"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.9999997,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        0.99999976,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        0.9999997,
+                        1.5,
                         0,
-                        -1.0380379,
-                        2.0811598,
-                        2.8232617,
+                        -3.6965027,
+                        2.081162,
+                        4.276929,
                         1
                       ]
                     }
@@ -9249,26 +10539,40 @@
                             "typeName" : "String",
                             "value" : "Hitmonchan"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        97.78291,
-                        0,
-                        0,
+                        81.976074,
+                        -7.1525574e-07,
+                        -4.1429424,
                         1
                       ]
                     }
@@ -9362,26 +10666,40 @@
                             "typeName" : "String",
                             "value" : "Dratini"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        39.146194,
-                        -0.00259614,
-                        0,
+                        37.459145,
+                        -0.0025959015,
+                        -4.9027157,
                         1
                       ]
                     }
@@ -9475,26 +10793,40 @@
                             "typeName" : "String",
                             "value" : "Eevee"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        44.846622,
-                        -0.00013518333,
-                        0,
+                        41.444923,
+                        -0.00013580918,
+                        -10.1349945,
                         1
                       ]
                     }
@@ -9588,26 +10920,40 @@
                             "typeName" : "String",
                             "value" : "Gyarados"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        112.34663,
-                        0.3455789,
-                        0,
+                        87.43463,
+                        0.34557867,
+                        -12.083264,
                         1
                       ]
                     }
@@ -9701,26 +11047,40 @@
                             "typeName" : "String",
                             "value" : "Zubat"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        5.3601203,
-                        -0.016283214,
-                        -0.21639124,
+                        5.0055943,
+                        -0.016283035,
+                        4.431805,
                         1
                       ]
                     }
@@ -9814,26 +11174,40 @@
                             "typeName" : "String",
                             "value" : "Tentacruel"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        8.828736,
-                        -0.013542891,
-                        -1.1624831,
+                        18.432957,
+                        -0.013543308,
+                        -10.19619,
                         1
                       ]
                     }
@@ -9927,26 +11301,40 @@
                             "typeName" : "String",
                             "value" : "Meowth"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        63.88681,
-                        0.0002028048,
-                        0,
+                        56.754368,
+                        0.00020289421,
+                        -9.8616705,
                         1
                       ]
                     }
@@ -10040,26 +11428,40 @@
                             "typeName" : "String",
                             "value" : "Beedrill"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        3.7608538,
-                        0.19611001,
-                        0,
+                        -16.094185,
+                        0.1961124,
+                        4.285298,
                         1
                       ]
                     }
@@ -10153,26 +11555,40 @@
                             "typeName" : "String",
                             "value" : "Venomoth"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        4.685786,
-                        0.0631299,
-                        3.2552137,
+                        -9.84705,
+                        0.063129425,
+                        4.792351,
                         1
                       ]
                     }
@@ -10266,26 +11682,40 @@
                             "typeName" : "String",
                             "value" : "Dodrio"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        92.54538,
-                        0.0017514229,
-                        0,
+                        77.21832,
+                        0.0017510653,
+                        -8.341045,
                         1
                       ]
                     }
@@ -10379,26 +11809,40 @@
                             "typeName" : "String",
                             "value" : "Charmeleon"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        148.54921,
-                        0.05571401,
-                        0,
+                        124.584625,
+                        0.05571544,
+                        1.2076087,
                         1
                       ]
                     }
@@ -10492,6 +11936,20 @@
                             "typeName" : "String",
                             "value" : "Gengar"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
@@ -10509,9 +11967,9 @@
                         0,
                         1,
                         0,
-                        130.0026,
-                        1.9999999,
-                        0,
+                        102.6189,
+                        1.9999986,
+                        -6.6712346,
                         1
                       ]
                     }
@@ -10605,22 +12063,36 @@
                             "typeName" : "String",
                             "value" : "Slowpoke"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         16.24971,
                         8.523464e-06,
@@ -10718,22 +12190,36 @@
                             "typeName" : "String",
                             "value" : "Starmie"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.9999992,
-                        -2.3841856e-07,
-                        -2.384184e-07,
+                        1.4999998,
+                        -3.576281e-07,
+                        -3.5762784e-07,
                         0,
-                        -2.3841838e-07,
-                        -9.698166e-08,
-                        -0.99999905,
+                        -3.5762787e-07,
+                        -1.0843904e-07,
+                        -1.4999998,
                         0,
-                        2.3841852e-07,
-                        0.99999905,
-                        -9.698169e-08,
+                        3.576281e-07,
+                        1.4999998,
+                        -1.0843908e-07,
                         0,
                         11.66551,
                         -0.23822588,
@@ -10831,26 +12317,40 @@
                             "typeName" : "String",
                             "value" : "Magikarp"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        77.29959,
-                        0.010039628,
-                        0,
+                        67.174934,
+                        0.0100387335,
+                        5.567926,
                         1
                       ]
                     }
@@ -10944,26 +12444,40 @@
                             "typeName" : "String",
                             "value" : "Fearow"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        0.5801748,
-                        0.00092840195,
-                        0,
+                        1.0531061,
+                        0.0009275675,
+                        4.5334864,
                         1
                       ]
                     }
@@ -11057,26 +12571,40 @@
                             "typeName" : "String",
                             "value" : "Arcanine"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        -3.168723,
+                        -3.7358413,
                         -0.00026369095,
-                        0,
+                        0.6297066,
                         1
                       ]
                     }
@@ -11170,26 +12698,40 @@
                             "typeName" : "String",
                             "value" : "Bulbasaur"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        132.88135,
+                        108.91369,
                         5.3048134e-05,
-                        0,
+                        6.9877934,
                         1
                       ]
                     }
@@ -11283,26 +12825,40 @@
                             "typeName" : "String",
                             "value" : "Butterfree"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        147.35593,
-                        0.013150632,
-                        0,
+                        118.30106,
+                        0.0131518245,
+                        0.80151725,
                         1
                       ]
                     }
@@ -11396,26 +12952,40 @@
                             "typeName" : "String",
                             "value" : "Vileplume"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        3.4190505,
-                        0.0004913807,
-                        -4.829902,
+                        5.377049,
+                        0.0004918575,
+                        -9.784367,
                         1
                       ]
                     }
@@ -11509,26 +13079,40 @@
                             "typeName" : "String",
                             "value" : "Cloyster"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.99999946,
-                        -2.3841842e-07,
-                        -2.3841845e-07,
+                        1.4999999,
+                        -3.5762784e-07,
+                        -3.5762787e-07,
                         0,
-                        -2.384183e-07,
-                        5.0841356e-07,
-                        -0.9999993,
+                        -3.5762767e-07,
+                        7.6262086e-07,
+                        -1.4999999,
                         0,
-                        2.3841851e-07,
-                        0.9999993,
-                        5.0841356e-07,
+                        3.5762804e-07,
+                        1.4999999,
+                        7.6262086e-07,
                         0,
-                        142.79305,
-                        0.07733291,
-                        0.748401,
+                        118.35919,
+                        0.07733452,
+                        -4.8270226,
                         1
                       ]
                     }
@@ -11622,26 +13206,40 @@
                             "typeName" : "String",
                             "value" : "Nidorina"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        26.11964,
-                        0,
-                        0,
+                        32.33512,
+                        3.5762787e-07,
+                        5.2721014,
                         1
                       ]
                     }
@@ -11735,26 +13333,40 @@
                             "typeName" : "String",
                             "value" : "Ninetails"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        52.319008,
-                        0,
-                        0,
+                        46.473263,
+                        -8.34465e-07,
+                        -8.843583,
                         1
                       ]
                     }
@@ -11848,26 +13460,40 @@
                             "typeName" : "String",
                             "value" : "Parasect"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        28.484808,
-                        0.20708117,
-                        0,
+                        29.539484,
+                        0.20708072,
+                        0.0327065,
                         1
                       ]
                     }
@@ -11962,26 +13588,40 @@
                             "typeName" : "String",
                             "value" : "Nidoing"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        62.35141,
-                        0,
-                        0,
+                        56.862617,
+                        1.1920929e-06,
+                        -5.2781467,
                         1
                       ]
                     }
@@ -12075,26 +13715,40 @@
                             "typeName" : "String",
                             "value" : "Vulpix"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        7.13768,
-                        0,
-                        -0.788756,
+                        14.607265,
+                        1.7285347e-06,
+                        -9.829015,
                         1
                       ]
                     }
@@ -12188,26 +13842,40 @@
                             "typeName" : "String",
                             "value" : "Raichu"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        25.155909,
-                        0,
-                        -2.2988038,
+                        27.45751,
+                        -6.556511e-07,
+                        -9.865208,
                         1
                       ]
                     }
@@ -12302,26 +13970,40 @@
                             "typeName" : "String",
                             "value" : "Seel"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        141.37144,
-                        -0.014787674,
-                        0,
+                        124.19764,
+                        -0.014788389,
+                        7.9285026,
                         1
                       ]
                     }
@@ -12415,26 +14097,40 @@
                             "typeName" : "String",
                             "value" : "Poliwhirl"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        30.175882,
-                        0.00032866,
-                        0,
+                        37.879715,
+                        0.00032901764,
+                        -10.117445,
                         1
                       ]
                     }
@@ -12528,26 +14224,40 @@
                             "typeName" : "String",
                             "value" : "Magneton"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.9999999,
-                        -2.3729709e-07,
-                        -2.3841591e-07,
+                        1.4999999,
+                        -3.5594564e-07,
+                        -3.576239e-07,
                         0,
-                        -2.3729704e-07,
-                        0.0047037243,
-                        -0.99998856,
+                        -3.5594564e-07,
+                        0.0070555885,
+                        -1.4999833,
                         0,
-                        2.3841585e-07,
-                        0.99998856,
-                        0.0047037243,
+                        3.576239e-07,
+                        1.4999833,
+                        0.0070555885,
                         0,
-                        80.14619,
-                        -0.24246195,
-                        0.37441063,
+                        66.734955,
+                        -0.2424612,
+                        -5.0440893,
                         1
                       ]
                     }
@@ -12641,26 +14351,40 @@
                             "typeName" : "String",
                             "value" : "Psyduck"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        25.963453,
-                        0,
-                        -1.026154,
+                        33.59384,
+                        8.34465e-07,
+                        -10.022274,
                         1
                       ]
                     }
@@ -12754,26 +14478,40 @@
                             "typeName" : "String",
                             "value" : "Mankey"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        78.70105,
-                        0.040234506,
-                        0,
+                        67.14085,
+                        0.040233314,
+                        0.05968976,
                         1
                       ]
                     }
@@ -12867,26 +14605,40 @@
                             "typeName" : "String",
                             "value" : "Nidorino"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        44.083134,
-                        0,
-                        0,
+                        41.42446,
+                        -1.1920929e-07,
+                        -6.3169136,
                         1
                       ]
                     }
@@ -12980,26 +14732,40 @@
                             "typeName" : "String",
                             "value" : "Farfetch'd"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        136.23866,
-                        0.0002886057,
-                        0,
+                        110.258286,
+                        0.00028783083,
+                        -5.6500015,
                         1
                       ]
                     }
@@ -13093,26 +14859,40 @@
                             "typeName" : "String",
                             "value" : "Sandshrew"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        -1.3326774,
-                        0,
-                        0,
+                        0.57601035,
+                        -2.9802322e-07,
+                        -5.0905676,
                         1
                       ]
                     }
@@ -13206,26 +14986,40 @@
                             "typeName" : "String",
                             "value" : "Zapdos"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        -8.58735,
-                        0.161511,
-                        0,
+                        -9.906029,
+                        0.16151094,
+                        -4.560849,
                         1
                       ]
                     }
@@ -13319,26 +15113,40 @@
                             "typeName" : "String",
                             "value" : "Victreebel"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        0.9999997,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        0.99999976,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        0.9999997,
+                        1.5,
                         0,
                         -3.7893443,
                         -0.007413149,
-                        -5.170881,
+                        -10.2508335,
                         1
                       ]
                     }
@@ -13425,26 +15233,40 @@
                             "typeName" : "UUID",
                             "value" : "3A6AA222-882E-4039-BD50-AD9B202A1C81"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        74.49348,
-                        0.0056984425,
-                        0,
+                        61.897808,
+                        0.0057001114,
+                        -0.62366605,
                         1
                       ]
                     }
@@ -13538,26 +15360,40 @@
                             "typeName" : "String",
                             "value" : "Graveler"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        100.208885,
-                        5.9604645e-08,
-                        0,
+                        81.79148,
+                        7.748604e-07,
+                        -8.540049,
                         1
                       ]
                     }
@@ -13651,26 +15487,40 @@
                             "typeName" : "String",
                             "value" : "Venonat"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        6.1381655,
-                        -0.0017894506,
-                        -4.365576,
+                        5.098928,
+                        -0.0017879009,
+                        -4.952741,
                         1
                       ]
                     }
@@ -13764,26 +15614,40 @@
                             "typeName" : "String",
                             "value" : "Rattata"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        1.5,
                         0,
-                        21.147451,
-                        0.0074649155,
-                        -0.8748321,
+                        24.952696,
+                        0.0074650496,
+                        -10.388982,
                         1
                       ]
                     }
@@ -13804,21 +15668,21 @@
               "title" : "PokemonScene",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.8112486,
-                  -8.658708e-08,
-                  0.58470154,
+                  0.9427995,
+                  7.581297e-09,
+                  0.3333605,
                   0,
-                  0.3225633,
-                  0.83406144,
-                  -0.44754267,
+                  0.14253758,
+                  0.9039791,
+                  -0.403119,
                   0,
-                  -0.48767698,
-                  0.5516715,
-                  0.67663115,
+                  -0.3013516,
+                  0.42757678,
+                  0.8522707,
                   0,
-                  -22.56227,
-                  40.25548,
-                  45.36826,
+                  -5.1741095,
+                  13.634298,
+                  18.279623,
                   1
                 ],
                 "sceneTransform" : [

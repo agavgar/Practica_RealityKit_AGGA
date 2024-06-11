@@ -27,6 +27,7 @@
 		6E6787D72BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6787D62BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift */; };
 		6E8F26832C149141000E49E9 /* PokemonAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F26822C149141000E49E9 /* PokemonAR.swift */; };
 		6EC3353F2C15BC5F0055D4A7 /* PokemonScene.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6EC3353E2C15BC5F0055D4A7 /* PokemonScene.rcproject */; };
+		6EC335412C15FA810055D4A7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC335402C15FA810055D4A7 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		6E6787D62BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_Seguridad_AGGAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6E8F26822C149141000E49E9 /* PokemonAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAR.swift; sourceTree = "<group>"; };
 		6EC3353E2C15BC5F0055D4A7 /* PokemonScene.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PokemonScene.rcproject; sourceTree = "<group>"; };
+		6EC335402C15FA810055D4A7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +185,7 @@
 		6E3B84362BF0B4E000C389BE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6E8F26822C149141000E49E9 /* PokemonAR.swift */,
+				6EC335422C15FB4A0055D4A7 /* ARView */,
 				6E3B84562BF2694400C389BE /* PokemonView */,
 			);
 			path = View;
@@ -261,6 +263,15 @@
 				6E6787D62BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift */,
 			);
 			path = Practica_RealityKit_AGGAUITests;
+			sourceTree = "<group>";
+		};
+		6EC335422C15FB4A0055D4A7 /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F26822C149141000E49E9 /* PokemonAR.swift */,
+				6EC335402C15FA810055D4A7 /* Coordinator.swift */,
+			);
+			path = ARView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,6 +412,7 @@
 			files = (
 				6E3B84592BF2696100C389BE /* PokemonView.swift in Sources */,
 				6E3B844B2BF0CAD200C389BE /* HTTPMethods.swift in Sources */,
+				6EC335412C15FA810055D4A7 /* Coordinator.swift in Sources */,
 				6E3B84512BF0D86200C389BE /* RepositoryApiProvider.swift in Sources */,
 				6E8F26832C149141000E49E9 /* PokemonAR.swift in Sources */,
 				6E3B84492BF0C46900C389BE /* RemoteProtocols.swift in Sources */,
