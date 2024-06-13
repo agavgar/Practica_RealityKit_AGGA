@@ -48,8 +48,8 @@ struct ARViewContainer: UIViewRepresentable {
             NSLog("Couldn't find the pokemon")
             return arView
         }
-        pokemon.position = .zero
-        pokemon.position.y += 0.05
+        pokemon.position = SIMD3<Float>(x: 0.0, y: 0.01, z: -2.0)
+        pokemon.scale *= 0.5
         anchor.addChild(pokemon)
                
         arView.scene.anchors.append(anchor)

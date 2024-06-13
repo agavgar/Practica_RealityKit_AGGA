@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6E0ECF902C1B4C4B00220D28 /* Practica-Seguridad-AGGA-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E0ECF8F2C1B4C4B00220D28 /* Practica-Seguridad-AGGA-Info.plist */; };
 		6E3B84382BF0B81400C389BE /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B84372BF0B81400C389BE /* Pokemon.swift */; };
-		6E3B843B2BF0BDDF00C389BE /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E3B843A2BF0BDDF00C389BE /* KeychainSwift */; };
 		6E3B84432BF0C38700C389BE /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B84422BF0C38700C389BE /* Endpoints.swift */; };
 		6E3B84452BF0C3E200C389BE /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B84442BF0C3E200C389BE /* ApiProvider.swift */; };
 		6E3B84492BF0C46900C389BE /* RemoteProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B84482BF0C46900C389BE /* RemoteProtocols.swift */; };
@@ -56,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3B843B2BF0BDDF00C389BE /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +232,6 @@
 			);
 			name = Practica_RealityKit_AGGA;
 			packageProductDependencies = (
-				6E3B843A2BF0BDDF00C389BE /* KeychainSwift */,
 			);
 			productName = Practica_Seguridad_AGGA;
 			productReference = 6E6787B52BEE8EF400330C28 /* Practica_RealityKit_AGGA.app */;
@@ -265,7 +262,6 @@
 			);
 			mainGroup = 6E6787AC2BEE8EF400330C28;
 			packageReferences = (
-				6E3B84392BF0BDDF00C389BE /* XCRemoteSwiftPackageReference "keychain-swift" */,
 			);
 			productRefGroup = 6E6787B62BEE8EF400330C28 /* Products */;
 			projectDirPath = "";
@@ -443,11 +439,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Practica_RealityKit_AGGA/Presentation/Preview Content\"";
-				DEVELOPMENT_TEAM = M26LNJLX8T;
+				DEVELOPMENT_TEAM = D37CG77DN5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Practica-Seguridad-AGGA-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to acces for VR Content";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -464,7 +461,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PracticaSeguridad.agavgar.Practica-Seguridad-AGGA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Practica-RealityKit-AGGA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -484,11 +481,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Practica_RealityKit_AGGA/Presentation/Preview Content\"";
-				DEVELOPMENT_TEAM = M26LNJLX8T;
+				DEVELOPMENT_TEAM = D37CG77DN5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Practica-Seguridad-AGGA-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to acces for VR Content";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -505,7 +503,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PracticaSeguridad.agavgar.Practica-Seguridad-AGGA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Practica-RealityKit-AGGA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -537,25 +535,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		6E3B84392BF0BDDF00C389BE /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
-			requirement = {
-				kind = exactVersion;
-				version = 24.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		6E3B843A2BF0BDDF00C389BE /* KeychainSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6E3B84392BF0BDDF00C389BE /* XCRemoteSwiftPackageReference "keychain-swift" */;
-			productName = KeychainSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E6787AD2BEE8EF400330C28 /* Project object */;
 }

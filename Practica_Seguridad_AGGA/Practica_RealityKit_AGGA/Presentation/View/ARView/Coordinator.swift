@@ -25,13 +25,6 @@ final class Coordinator: NSObject {
     @objc func handleTap(_ recognizer: UITapGestureRecognizer) {
         guard let arView = recognizer.view as? ARView else { return }
         let location = recognizer.location(in: arView)
-        
-        guard let result = arView.raycast(from: location, allowing: .existingPlaneInfinite, alignment: .any).first else {
-            NSLog("Error in the raycast")
-            return
-        }
-        let transformAim = Transform(matrix: result.worldTransform)
-        let positionAim = transformAim.translation
             
         if let pokemon = arView.entity(at: location) as? ModelEntity, pokemon.name == viewModel.selectedPokemon {
             pokemon.scale = SIMD3<Float>(0, 0, 0)
@@ -51,8 +44,8 @@ final class Coordinator: NSObject {
             arView.scene.addAnchor(AnchorEntity(world: .zero))
             arView.scene.anchors.first?.addChild(pokeball)
             
-            let pushPokeball = SIMD3<Float>(0, 0.5, -1)
-            pokeball.addForce(pushPokeball, at: positionAim, relativeTo: nil)
+            let originPokeball = SIMD3<Float>(0, 0.5, -1)
+            pokeball.addForce(originPokeball, relativeTo: nil)
 
             guard let pokemon = arView.entity(at: location) as? ModelEntity, pokemon.name == viewModel.selectedPokemon else {
                 NSLog("The Ultraball cannot be found")
