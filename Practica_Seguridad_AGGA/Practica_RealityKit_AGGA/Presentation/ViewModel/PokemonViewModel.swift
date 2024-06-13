@@ -11,7 +11,6 @@ enum Status {
     case loading, loaded
 }
 
-@MainActor
 final class PokemonViewModel: ObservableObject {
 
     //MARK: - Properties

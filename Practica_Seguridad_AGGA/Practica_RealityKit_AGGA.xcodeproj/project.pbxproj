@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0ECF902C1B4C4B00220D28 /* Practica-Seguridad-AGGA-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E0ECF8F2C1B4C4B00220D28 /* Practica-Seguridad-AGGA-Info.plist */; };
 		6E3B84382BF0B81400C389BE /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B84372BF0B81400C389BE /* Pokemon.swift */; };
 		6E3B843B2BF0BDDF00C389BE /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E3B843A2BF0BDDF00C389BE /* KeychainSwift */; };
 		6E3B84432BF0C38700C389BE /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B84422BF0C38700C389BE /* Endpoints.swift */; };
@@ -22,32 +23,13 @@
 		6E6787B92BEE8EF400330C28 /* Practica_RealityKit_AGGAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6787B82BEE8EF400330C28 /* Practica_RealityKit_AGGAApp.swift */; };
 		6E6787BD2BEE8EF500330C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6787BC2BEE8EF500330C28 /* Assets.xcassets */; };
 		6E6787C12BEE8EF500330C28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6787C02BEE8EF500330C28 /* Preview Assets.xcassets */; };
-		6E6787CB2BEE8EF600330C28 /* Practica_Seguridad_AGGATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6787CA2BEE8EF600330C28 /* Practica_Seguridad_AGGATests.swift */; };
-		6E6787D52BEE8EF600330C28 /* Practica_Seguridad_AGGAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6787D42BEE8EF600330C28 /* Practica_Seguridad_AGGAUITests.swift */; };
-		6E6787D72BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6787D62BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift */; };
 		6E8F26832C149141000E49E9 /* PokemonAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F26822C149141000E49E9 /* PokemonAR.swift */; };
-		6EC3353F2C15BC5F0055D4A7 /* PokemonScene.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6EC3353E2C15BC5F0055D4A7 /* PokemonScene.rcproject */; };
 		6EC335412C15FA810055D4A7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC335402C15FA810055D4A7 /* Coordinator.swift */; };
+		6EEB8F9F2C1A060B00CBCD86 /* PokemonScenePrueba.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB8F9E2C1A060B00CBCD86 /* PokemonScenePrueba.rcproject */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6E6787C72BEE8EF600330C28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E6787AD2BEE8EF400330C28 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6E6787B42BEE8EF400330C28;
-			remoteInfo = Practica_Seguridad_AGGA;
-		};
-		6E6787D12BEE8EF600330C28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E6787AD2BEE8EF400330C28 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6E6787B42BEE8EF400330C28;
-			remoteInfo = Practica_Seguridad_AGGA;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		6E0ECF8F2C1B4C4B00220D28 /* Practica-Seguridad-AGGA-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Practica-Seguridad-AGGA-Info.plist"; sourceTree = "<group>"; };
 		6E3B84372BF0B81400C389BE /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		6E3B84422BF0C38700C389BE /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		6E3B84442BF0C3E200C389BE /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
@@ -64,14 +46,9 @@
 		6E6787BC2BEE8EF500330C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E6787BE2BEE8EF500330C28 /* Practica_Seguridad_AGGA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Practica_Seguridad_AGGA.entitlements; sourceTree = "<group>"; };
 		6E6787C02BEE8EF500330C28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6E6787C62BEE8EF600330C28 /* Practica_RealityKit_AGGATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practica_RealityKit_AGGATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E6787CA2BEE8EF600330C28 /* Practica_Seguridad_AGGATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_Seguridad_AGGATests.swift; sourceTree = "<group>"; };
-		6E6787D02BEE8EF600330C28 /* Practica_RealityKit_AGGAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practica_RealityKit_AGGAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E6787D42BEE8EF600330C28 /* Practica_Seguridad_AGGAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_Seguridad_AGGAUITests.swift; sourceTree = "<group>"; };
-		6E6787D62BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_Seguridad_AGGAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6E8F26822C149141000E49E9 /* PokemonAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAR.swift; sourceTree = "<group>"; };
-		6EC3353E2C15BC5F0055D4A7 /* PokemonScene.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PokemonScene.rcproject; sourceTree = "<group>"; };
 		6EC335402C15FA810055D4A7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6EEB8F9E2C1A060B00CBCD86 /* PokemonScenePrueba.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PokemonScenePrueba.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,20 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E3B843B2BF0BDDF00C389BE /* KeychainSwift in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E6787C32BEE8EF600330C28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E6787CD2BEE8EF600330C28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +78,7 @@
 			children = (
 				6E6787B82BEE8EF400330C28 /* Practica_RealityKit_AGGAApp.swift */,
 				6E6787BC2BEE8EF500330C28 /* Assets.xcassets */,
-				6EC3353E2C15BC5F0055D4A7 /* PokemonScene.rcproject */,
+				6EEB8F9E2C1A060B00CBCD86 /* PokemonScenePrueba.rcproject */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -211,9 +174,8 @@
 		6E6787AC2BEE8EF400330C28 = {
 			isa = PBXGroup;
 			children = (
+				6E0ECF8F2C1B4C4B00220D28 /* Practica-Seguridad-AGGA-Info.plist */,
 				6E6787B72BEE8EF400330C28 /* Practica_RealityKit_AGGA */,
-				6E6787C92BEE8EF600330C28 /* Practica_RealityKit_AGGATests */,
-				6E6787D32BEE8EF600330C28 /* Practica_RealityKit_AGGAUITests */,
 				6E6787B62BEE8EF400330C28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -222,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				6E6787B52BEE8EF400330C28 /* Practica_RealityKit_AGGA.app */,
-				6E6787C62BEE8EF600330C28 /* Practica_RealityKit_AGGATests.xctest */,
-				6E6787D02BEE8EF600330C28 /* Practica_RealityKit_AGGAUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,23 +206,6 @@
 				6E6787C02BEE8EF500330C28 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6E6787C92BEE8EF600330C28 /* Practica_RealityKit_AGGATests */ = {
-			isa = PBXGroup;
-			children = (
-				6E6787CA2BEE8EF600330C28 /* Practica_Seguridad_AGGATests.swift */,
-			);
-			path = Practica_RealityKit_AGGATests;
-			sourceTree = "<group>";
-		};
-		6E6787D32BEE8EF600330C28 /* Practica_RealityKit_AGGAUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6E6787D42BEE8EF600330C28 /* Practica_Seguridad_AGGAUITests.swift */,
-				6E6787D62BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift */,
-			);
-			path = Practica_RealityKit_AGGAUITests;
 			sourceTree = "<group>";
 		};
 		6EC335422C15FB4A0055D4A7 /* ARView */ = {
@@ -297,42 +240,6 @@
 			productReference = 6E6787B52BEE8EF400330C28 /* Practica_RealityKit_AGGA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E6787C52BEE8EF600330C28 /* Practica_RealityKit_AGGATests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6E6787DD2BEE8EF600330C28 /* Build configuration list for PBXNativeTarget "Practica_RealityKit_AGGATests" */;
-			buildPhases = (
-				6E6787C22BEE8EF600330C28 /* Sources */,
-				6E6787C32BEE8EF600330C28 /* Frameworks */,
-				6E6787C42BEE8EF600330C28 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6E6787C82BEE8EF600330C28 /* PBXTargetDependency */,
-			);
-			name = Practica_RealityKit_AGGATests;
-			productName = Practica_Seguridad_AGGATests;
-			productReference = 6E6787C62BEE8EF600330C28 /* Practica_RealityKit_AGGATests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6E6787CF2BEE8EF600330C28 /* Practica_RealityKit_AGGAUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6E6787E02BEE8EF600330C28 /* Build configuration list for PBXNativeTarget "Practica_RealityKit_AGGAUITests" */;
-			buildPhases = (
-				6E6787CC2BEE8EF600330C28 /* Sources */,
-				6E6787CD2BEE8EF600330C28 /* Frameworks */,
-				6E6787CE2BEE8EF600330C28 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6E6787D22BEE8EF600330C28 /* PBXTargetDependency */,
-			);
-			name = Practica_RealityKit_AGGAUITests;
-			productName = Practica_Seguridad_AGGAUITests;
-			productReference = 6E6787D02BEE8EF600330C28 /* Practica_RealityKit_AGGAUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -345,14 +252,6 @@
 				TargetAttributes = {
 					6E6787B42BEE8EF400330C28 = {
 						CreatedOnToolsVersion = 15.3;
-					};
-					6E6787C52BEE8EF600330C28 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 6E6787B42BEE8EF400330C28;
-					};
-					6E6787CF2BEE8EF600330C28 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 6E6787B42BEE8EF400330C28;
 					};
 				};
 			};
@@ -373,8 +272,6 @@
 			projectRoot = "";
 			targets = (
 				6E6787B42BEE8EF400330C28 /* Practica_RealityKit_AGGA */,
-				6E6787C52BEE8EF600330C28 /* Practica_RealityKit_AGGATests */,
-				6E6787CF2BEE8EF600330C28 /* Practica_RealityKit_AGGAUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -385,21 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E6787C12BEE8EF500330C28 /* Preview Assets.xcassets in Resources */,
+				6E0ECF902C1B4C4B00220D28 /* Practica-Seguridad-AGGA-Info.plist in Resources */,
 				6E6787BD2BEE8EF500330C28 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E6787C42BEE8EF600330C28 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E6787CE2BEE8EF600330C28 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,45 +304,15 @@
 				6E3B84452BF0C3E200C389BE /* ApiProvider.swift in Sources */,
 				6E3B84532BF0D8CB00C389BE /* RepositoryProtocol.swift in Sources */,
 				6E6254D12BFCF133006DBA4B /* extension + UIImage.swift in Sources */,
-				6EC3353F2C15BC5F0055D4A7 /* PokemonScene.rcproject in Sources */,
 				6E6787B92BEE8EF400330C28 /* Practica_RealityKit_AGGAApp.swift in Sources */,
+				6EEB8F9F2C1A060B00CBCD86 /* PokemonScenePrueba.rcproject in Sources */,
 				6E3B84552BF0DB3B00C389BE /* PokemonViewModel.swift in Sources */,
 				6E3B84382BF0B81400C389BE /* Pokemon.swift in Sources */,
 				6E3B84432BF0C38700C389BE /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E6787C22BEE8EF600330C28 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E6787CB2BEE8EF600330C28 /* Practica_Seguridad_AGGATests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E6787CC2BEE8EF600330C28 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E6787D72BEE8EF600330C28 /* Practica_Seguridad_AGGAUITestsLaunchTests.swift in Sources */,
-				6E6787D52BEE8EF600330C28 /* Practica_Seguridad_AGGAUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6E6787C82BEE8EF600330C28 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6E6787B42BEE8EF400330C28 /* Practica_RealityKit_AGGA */;
-			targetProxy = 6E6787C72BEE8EF600330C28 /* PBXContainerItemProxy */;
-		};
-		6E6787D22BEE8EF600330C28 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6E6787B42BEE8EF400330C28 /* Practica_RealityKit_AGGA */;
-			targetProxy = 6E6787D12BEE8EF600330C28 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6E6787D82BEE8EF600330C28 /* Debug */ = {
@@ -661,96 +515,6 @@
 			};
 			name = Release;
 		};
-		6E6787DE2BEE8EF600330C28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M26LNJLX8T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PracticaSeguridad.agavgar.Practica-Seguridad-AGGATests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica_RealityKit_AGGA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Practica_RealityKit_AGGA";
-			};
-			name = Debug;
-		};
-		6E6787DF2BEE8EF600330C28 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M26LNJLX8T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PracticaSeguridad.agavgar.Practica-Seguridad-AGGATests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica_RealityKit_AGGA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Practica_RealityKit_AGGA";
-			};
-			name = Release;
-		};
-		6E6787E12BEE8EF600330C28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M26LNJLX8T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PracticaSeguridad.agavgar.Practica-Seguridad-AGGAUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Practica_Seguridad_AGGA;
-			};
-			name = Debug;
-		};
-		6E6787E22BEE8EF600330C28 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M26LNJLX8T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PracticaSeguridad.agavgar.Practica-Seguridad-AGGAUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Practica_Seguridad_AGGA;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -768,24 +532,6 @@
 			buildConfigurations = (
 				6E6787DB2BEE8EF600330C28 /* Debug */,
 				6E6787DC2BEE8EF600330C28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6E6787DD2BEE8EF600330C28 /* Build configuration list for PBXNativeTarget "Practica_RealityKit_AGGATests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E6787DE2BEE8EF600330C28 /* Debug */,
-				6E6787DF2BEE8EF600330C28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6E6787E02BEE8EF600330C28 /* Build configuration list for PBXNativeTarget "Practica_RealityKit_AGGAUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E6787E12BEE8EF600330C28 /* Debug */,
-				6E6787E22BEE8EF600330C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

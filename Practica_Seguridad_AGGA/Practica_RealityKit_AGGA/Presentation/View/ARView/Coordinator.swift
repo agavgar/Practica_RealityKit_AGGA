@@ -13,11 +13,13 @@ import Combine
 @MainActor
 final class Coordinator: NSObject {
     var viewModel: PokemonViewModel
+    var pokemonName: String
     var cancellables = Set<AnyCancellable>()
     var force = 1.5
     
-    init(viewModel: PokemonViewModel) {
+    init(viewModel: PokemonViewModel,pokemonName: String) {
         self.viewModel = viewModel
+        self.pokemonName = pokemonName.lowercased()
     }
     
     @objc func handleTap(_ recognizer: UITapGestureRecognizer) {
@@ -60,7 +62,7 @@ final class Coordinator: NSObject {
             pokemon.generateCollisionShapes(recursive: true)
             
             arView.scene.subscribe(to: CollisionEvents.Began.self) { event in
-                if event.entityA.name == "Pokeball" && event.entityB.name == "Pokemon" {
+                if event.entityA.name == "Ultraball" && event.entityB.name == "\(self.viewModel.selectedPokemon)" {
                     // Si la Pokeball choca con el Pokémon
                     event.entityB.scale = SIMD3<Float>(0, 0, 0)
                     event.entityA.scale *= 1.5

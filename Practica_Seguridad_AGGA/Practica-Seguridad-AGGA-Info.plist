@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSFaceIDUsageDescription</key>
-	<string>You need FaceID in order to access the App</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to acces for VR Content</string>
 </dict>
 </plist>

@@ -19,20 +19,16 @@ struct PokemonView: View {
                 ScrollView(.vertical){
                     LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
                         ForEach(pokemonViewModel.pokemons) { pokemon in
-                            ForEach(pokemonViewModel.pokemons) { pokemon in
-                                Button(action: {
-                                    pokemonViewModel.selectedPokemon = pokemon.name!
-                                    NavigationLink(""){
-                                        ARViewContainer(viewModel: self.pokemonViewModel)
-                                    }
-                                }) {
-                                    PokemonRow(pokemonImageUrl: (pokemon.sprites?.front_default)!, pokemonName: pokemon.name!)
-                                }
+                            NavigationLink {
+                                ContentView(pokemonName: pokemon.name!).environmentObject(self.pokemonViewModel)
+                            } label: {
+                                PokemonRow(pokemonImageUrl: (pokemon.sprites?.front_default)!, pokemonName: pokemon.name!)
                             }
                         }
                     }
                 }
                 .padding()
+                .navigationTitle("Select a Pokémon")
             }
         }
     }
