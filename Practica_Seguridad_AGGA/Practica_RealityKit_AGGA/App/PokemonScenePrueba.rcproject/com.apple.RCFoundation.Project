@@ -443,6 +443,13 @@
                             "typeName" : "UUID",
                             "value" : "A26A97FF-057E-41CD-B7D8-1C46C2471FEA"
                           }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Ultraball"
+                          }
                         ]
                       ]
                     },

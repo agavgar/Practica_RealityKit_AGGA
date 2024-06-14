@@ -51,6 +51,13 @@ struct ARViewContainer: UIViewRepresentable {
         pokemon.position = SIMD3<Float>(x: 0.0, y: 0.01, z: -2.0)
         pokemon.scale *= 0.5
         anchor.addChild(pokemon)
+        
+        guard let pokeball = scene.findEntity(named: "Ultraball") else {
+            NSLog("Couldn't find the ultraball")
+            return arView
+        }
+        pokeball.position = SIMD3<Float>(x: -10.0, y: 0.0, z: -1.0)
+        anchor.addChild(pokeball)
                
         arView.scene.anchors.append(anchor)
         

@@ -15,7 +15,7 @@ final class Coordinator: NSObject {
     var viewModel: PokemonViewModel
     var pokemonName: String
     var cancellables = Set<AnyCancellable>()
-    var force = 1.5
+    var force: Float = 10
     
     init(viewModel: PokemonViewModel,pokemonName: String) {
         self.viewModel = viewModel
@@ -25,43 +25,43 @@ final class Coordinator: NSObject {
     @objc func handleTap(_ recognizer: UITapGestureRecognizer) {
         guard let arView = recognizer.view as? ARView else { return }
         let location = recognizer.location(in: arView)
-            
-        if let pokemon = arView.entity(at: location) as? ModelEntity, pokemon.name == viewModel.selectedPokemon {
-            pokemon.scale = SIMD3<Float>(0, 0, 0)
-            if let pokeball = arView.scene.findEntity(named: "Ultraball") as? ModelEntity {
-                pokeball.scale *= 1.5
-            }
-        } else {
-            guard let pokeball = arView.scene.findEntity(named: "Ultraball") as? ModelEntity else {
-                NSLog("The Ultraball cannot be found")
-                return
-            }
-            pokeball.position = [0, 0, -0.5]
-            pokeball.physicsBody = PhysicsBodyComponent(mode: .dynamic)
-            pokeball.generateCollisionShapes(recursive: true)
-            pokeball.collision = CollisionComponent(shapes: [.generateSphere(radius: 1.0)], mode: .trigger, filter: .default)
-            
-            arView.scene.addAnchor(AnchorEntity(world: .zero))
-            arView.scene.anchors.first?.addChild(pokeball)
-            
-            let originPokeball = SIMD3<Float>(0, 0.5, -1)
-            pokeball.addForce(originPokeball, relativeTo: nil)
-
-            guard let pokemon = arView.entity(at: location) as? ModelEntity, pokemon.name == viewModel.selectedPokemon else {
-                NSLog("The Ultraball cannot be found")
-                return
-            }
-            pokemon.collision = CollisionComponent(shapes: [.generateBox(size: .one)], mode: .trigger, filter: .default)
-            pokemon.generateCollisionShapes(recursive: true)
-            
-            arView.scene.subscribe(to: CollisionEvents.Began.self) { event in
-                if event.entityA.name == "Ultraball" && event.entityB.name == "\(self.viewModel.selectedPokemon)" {
-                    // Si la Pokeball choca con el Pokémon
-                    event.entityB.scale = SIMD3<Float>(0, 0, 0)
-                    event.entityA.scale *= 1.5
-                }
-            }
-            .store(in: &cancellables)
+        
+        print(pokemonName)
+        
+        guard let pokemon = arView.scene.findEntity(named: "\(pokemonName)") else {
+            NSLog("The pokemon cannot be found")
+            return
         }
+        pokemon.components[CollisionComponent.self] = CollisionComponent(shapes: [.generateBox(size: .one)], mode: .trigger, filter: .default)
+        
+        guard let pokeball = arView.scene.findEntity(named: "Ultraball") else {
+            NSLog("The Ultraball cannot be found")
+            return
+        }
+        pokeball.position = [0, 0.0 , -1]
+        // Rigidbody contains Physics
+        pokeball.components[PhysicsBodyComponent.self] = PhysicsBodyComponent(mode: .dynamic)
+        // Collision to detect the collision
+        let collisionShape = ShapeResource.generateSphere(radius: 1.0)
+        pokeball.components[CollisionComponent.self] = CollisionComponent(shapes: [collisionShape], mode: .trigger, filter: .default)
+        //Throw
+        let movementAxis = SIMD3<Float>(0, 0, -1 * force)
+        //Reset the physics
+        pokeball.components[PhysicsMotionComponent.self] = PhysicsMotionComponent(linearVelocity: .zero, angularVelocity: .zero)
+        // Add the throw
+        pokeball.components[PhysicsMotionComponent.self] = PhysicsMotionComponent(linearVelocity: movementAxis, angularVelocity: .zero)
+        
+        arView.scene.subscribe(to: CollisionEvents.Began.self) { event in
+            if event.entityA.name == "Ultraball" && event.entityB.name == "\(self.pokemonName)" {
+                // Si la Pokeball choca con el Pokémon
+                event.entityB.scale = SIMD3<Float>(0, 0, 0)
+                event.entityA.scale *= 1.5
+            }
+            
+            DispatchQueue.main.async {
+                
+            }
+        }
+        .store(in: &cancellables)
     }
 }

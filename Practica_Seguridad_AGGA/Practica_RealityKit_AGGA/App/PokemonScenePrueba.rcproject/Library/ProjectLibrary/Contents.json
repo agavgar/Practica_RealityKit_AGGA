@@ -1,7 +1,7 @@
 [
   {
-    "displayName" : "Charmander.usdz",
     "libraryIdentifier" : "aa11bb7a6f93c242795225f9207229df",
+    "displayName" : "Charmander.usdz",
     "format" : "model"
   },
   {
@@ -10,18 +10,18 @@
     "format" : "model"
   },
   {
+    "displayName" : "CharizardMegaY.usdz",
     "libraryIdentifier" : "69203d057ff7eba446de1e646118a32d",
-    "format" : "model",
-    "displayName" : "CharizardMegaY.usdz"
+    "format" : "model"
   },
   {
     "libraryIdentifier" : "eb5ac1cfc0ff6003c3694ee75ffd6b6d",
-    "format" : "model",
-    "displayName" : "Super Training Stage.usdz"
+    "displayName" : "Super Training Stage.usdz",
+    "format" : "model"
   },
   {
     "displayName" : "UltraBall.usdz",
-    "libraryIdentifier" : "d75f8b383e22b607e6eb896c5181aa03",
-    "format" : "model"
+    "format" : "model",
+    "libraryIdentifier" : "d75f8b383e22b607e6eb896c5181aa03"
   }
 ]
