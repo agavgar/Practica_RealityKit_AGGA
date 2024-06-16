@@ -1,8 +1,8 @@
 [
   {
     "libraryIdentifier" : "aa11bb7a6f93c242795225f9207229df",
-    "displayName" : "Charmander.usdz",
-    "format" : "model"
+    "format" : "model",
+    "displayName" : "Charmander.usdz"
   },
   {
     "displayName" : "Charmeleon.usdz",
@@ -10,9 +10,9 @@
     "format" : "model"
   },
   {
-    "displayName" : "CharizardMegaY.usdz",
+    "format" : "model",
     "libraryIdentifier" : "69203d057ff7eba446de1e646118a32d",
-    "format" : "model"
+    "displayName" : "CharizardMegaY.usdz"
   },
   {
     "libraryIdentifier" : "eb5ac1cfc0ff6003c3694ee75ffd6b6d",
@@ -23,5 +23,35 @@
     "displayName" : "UltraBall.usdz",
     "format" : "model",
     "libraryIdentifier" : "d75f8b383e22b607e6eb896c5181aa03"
+  },
+  {
+    "libraryIdentifier" : "4e8fce83251d34c1d4d9595b209c043f",
+    "displayName" : "Blastoise.usdz",
+    "format" : "model"
+  },
+  {
+    "libraryIdentifier" : "c98897676c2bb7c93e2bbda3f2f71cc4",
+    "format" : "model",
+    "displayName" : "Bulbasaur.usdz"
+  },
+  {
+    "displayName" : "Ivysaur.usdz",
+    "libraryIdentifier" : "17ede97797155b8cc1e4cb33776dfd1f",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "displayName" : "Wartortle.usdz",
+    "libraryIdentifier" : "c21975fe7cf8ccff5a6eee6f6cb99dee"
+  },
+  {
+    "displayName" : "VenusaurMega.usdz",
+    "libraryIdentifier" : "f20038b0df891d3bb3ea767d8a9de0aa",
+    "format" : "model"
+  },
+  {
+    "format" : "model",
+    "libraryIdentifier" : "500ce5a021e17ac33269bf79454e172d",
+    "displayName" : "Squirtle.usdz"
   }
 ]

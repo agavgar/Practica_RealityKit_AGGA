@@ -29,6 +29,12 @@ struct PokemonView: View {
                 }
                 .padding()
                 .navigationTitle("Select a Pokémon")
+                .onAppear {
+                    SoundManager.shared.playSound("opening",0.75)
+                }
+                .onDisappear {
+                    SoundManager.shared.stopSound()
+                }
             }
         }
     }

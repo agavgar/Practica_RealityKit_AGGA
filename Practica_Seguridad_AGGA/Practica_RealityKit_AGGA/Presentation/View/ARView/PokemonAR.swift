@@ -18,8 +18,16 @@ struct ContentView: View {
     }
     
     var body: some View {
-        ARViewContainer(viewModel: self.viewModel, pokemonName: self.pokemonName)
-            .edgesIgnoringSafeArea(.all)
+        NavigationStack {
+            ARViewContainer(viewModel: self.viewModel, pokemonName: self.pokemonName)
+                .edgesIgnoringSafeArea(.all)
+                .onAppear(){
+                    SoundManager.shared.playSound("\(pokemonName)",nil, false)
+                }
+                .navigationDestination(isPresented: $viewModel.win, destination: {
+                    FinalView().environmentObject(self.viewModel)
+                })
+        }
     }
 }
 
@@ -41,16 +49,34 @@ struct ARViewContainer: UIViewRepresentable {
             NSLog("Couldn't find the stadium")
             return arView
         }
-        stadium.position = .zero
+        stadium.position = SIMD3<Float>(x: 0, y: -0.115, z: 0.3)
         anchor.addChild(stadium)
+        
+        let Hplane = ModelEntity(mesh: MeshResource.generatePlane(width: 15, depth: 15), materials: [UnlitMaterial(color: .clear)])
+        Hplane.position = SIMD3<Float>(x: 0, y: -0.01, z: 0)
+        Hplane.physicsBody = PhysicsBodyComponent(mode: .static)
+        Hplane.generateCollisionShapes(recursive: true)
+        anchor.addChild(Hplane)
+        
+        let Vplane = ModelEntity(mesh: MeshResource.generatePlane(width: 15, depth: 15), materials: [UnlitMaterial(color: .clear)])
+        Vplane.position = SIMD3<Float>(x: 0, y: 0, z: -5)
+        Vplane.orientation = simd_quatf(angle: .pi / 2, axis: [1, 0, 0])
+        Vplane.physicsBody = PhysicsBodyComponent(mode: .static)
+        Vplane.generateCollisionShapes(recursive: true)
+        anchor.addChild(Vplane)
         
         guard let pokemon = scene.findEntity(named: "\(pokemonName)") else {
             NSLog("Couldn't find the pokemon")
             return arView
         }
-        pokemon.position = SIMD3<Float>(x: 0.0, y: 0.01, z: -2.0)
+        pokemon.position = SIMD3<Float>(x: 0.0, y: -0.01, z: -3)
         pokemon.scale *= 0.5
+        pokemon.generateCollisionShapes(recursive: true)
         anchor.addChild(pokemon)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            SoundManager.shared.playSound("\(pokemonName)",nil, false)
+        }
         
         guard let pokeball = scene.findEntity(named: "Ultraball") else {
             NSLog("Couldn't find the ultraball")

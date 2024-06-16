@@ -11,13 +11,15 @@ enum Status {
     case loading, loaded
 }
 
+@MainActor
 final class PokemonViewModel: ObservableObject {
 
     //MARK: - Properties
     var repository: RepositoryProtocol
     @Published var pokemons = [Pokemon]()
     @Published var status = Status.loading
-    @Published var selectedPokemon = ""
+    @Published var count = 0
+    @Published var win = false
     
     //MARK: - Init
     init(repository: RepositoryProtocol) {
@@ -47,5 +49,19 @@ final class PokemonViewModel: ObservableObject {
         }catch{
             print("HomeViewModel -> getPokemons -> Error in catch")
         }
+    }
+    
+    func pokemonCaptured(){
+        self.count += 1
+        if count == 3 {
+            win = true
+        }else{
+            win = false
+        }
+    }
+    
+    func reset() {
+        self.count = 0
+        self.win = false
     }
 }
