@@ -23,19 +23,23 @@ struct PokemonRow: View {
                 Circle()
                     .fill(Color.yellow)
                     .frame(width: 155, height: 155)
+                    .id(1)
                 Circle()
                     .fill(Color.red)
                     .frame(width: 150, height: 150)
+                    .id(2)
                 Rectangle()
                     .fill(Color.white)
                     .frame(width: 150, height: 150)
                     .offset(y:75)
                     .clipShape(.circle)
+                    .id(3)
                 if let pokemonImage = pokemonImage {
                     pokemonImage
                         .resizable()
                         .clipShape(.circle)
                         .frame(width: 150, height: 150)
+                        .id(4)
                 }else{
                     ProgressView()
                 }
@@ -44,6 +48,7 @@ struct PokemonRow: View {
                 .font(.title2)
                 .bold()
                 .foregroundStyle(.red)
+                .id(5)
         }
         .onAppear {
             Task(priority: .medium) {

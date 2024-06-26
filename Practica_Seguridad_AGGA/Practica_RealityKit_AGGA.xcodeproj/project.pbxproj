@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5714D2F02C1EFA1E0097920F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5714D2EF2C1EFA1E0097920F /* LaunchScreen.storyboard */; };
 		5714D2F32C1F340B0097920F /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714D2F22C1F340B0097920F /* FinalView.swift */; };
+		5783AF592C2CA3D50083FC73 /* Practica_RealityKit_AGGATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5783AF582C2CA3D50083FC73 /* Practica_RealityKit_AGGATests.swift */; };
+		5783AF612C2CA4730083FC73 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 5783AF602C2CA4730083FC73 /* ViewInspector */; };
 		578503172C1EE1B50086B6B8 /* blastoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5785030D2C1EE1B50086B6B8 /* blastoise.mp3 */; };
 		578503182C1EE1B50086B6B8 /* opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5785030E2C1EE1B50086B6B8 /* opening.mp3 */; };
 		578503192C1EE1B50086B6B8 /* charmeleon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5785030F2C1EE1B50086B6B8 /* charmeleon.mp3 */; };
@@ -40,9 +42,21 @@
 		6EEB8F9F2C1A060B00CBCD86 /* PokemonScenePrueba.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB8F9E2C1A060B00CBCD86 /* PokemonScenePrueba.rcproject */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5783AF5A2C2CA3D50083FC73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E6787AD2BEE8EF400330C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6787B42BEE8EF400330C28;
+			remoteInfo = Practica_RealityKit_AGGA;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5714D2EF2C1EFA1E0097920F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5714D2F22C1F340B0097920F /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		5783AF562C2CA3D50083FC73 /* Practica_RealityKit_AGGATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practica_RealityKit_AGGATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5783AF582C2CA3D50083FC73 /* Practica_RealityKit_AGGATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_RealityKit_AGGATests.swift; sourceTree = "<group>"; };
 		5785030D2C1EE1B50086B6B8 /* blastoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blastoise.mp3; sourceTree = "<group>"; };
 		5785030E2C1EE1B50086B6B8 /* opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = opening.mp3; sourceTree = "<group>"; };
 		5785030F2C1EE1B50086B6B8 /* charmeleon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = charmeleon.mp3; sourceTree = "<group>"; };
@@ -77,6 +91,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5783AF532C2CA3D50083FC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5783AF612C2CA4730083FC73 /* ViewInspector in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E6787B22BEE8EF400330C28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +115,14 @@
 				5714D2F22C1F340B0097920F /* FinalView.swift */,
 			);
 			path = FinalView;
+			sourceTree = "<group>";
+		};
+		5783AF572C2CA3D50083FC73 /* Practica_RealityKit_AGGATests */ = {
+			isa = PBXGroup;
+			children = (
+				5783AF582C2CA3D50083FC73 /* Practica_RealityKit_AGGATests.swift */,
+			);
+			path = Practica_RealityKit_AGGATests;
 			sourceTree = "<group>";
 		};
 		5785030C2C1EE19B0086B6B8 /* Sounds */ = {
@@ -229,6 +259,7 @@
 			children = (
 				6E0ECF8F2C1B4C4B00220D28 /* Practica-Seguridad-AGGA-Info.plist */,
 				6E6787B72BEE8EF400330C28 /* Practica_RealityKit_AGGA */,
+				5783AF572C2CA3D50083FC73 /* Practica_RealityKit_AGGATests */,
 				6E6787B62BEE8EF400330C28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -237,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				6E6787B52BEE8EF400330C28 /* Practica_RealityKit_AGGA.app */,
+				5783AF562C2CA3D50083FC73 /* Practica_RealityKit_AGGATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,6 +305,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5783AF552C2CA3D50083FC73 /* Practica_RealityKit_AGGATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5783AF5E2C2CA3D50083FC73 /* Build configuration list for PBXNativeTarget "Practica_RealityKit_AGGATests" */;
+			buildPhases = (
+				5783AF522C2CA3D50083FC73 /* Sources */,
+				5783AF532C2CA3D50083FC73 /* Frameworks */,
+				5783AF542C2CA3D50083FC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5783AF5B2C2CA3D50083FC73 /* PBXTargetDependency */,
+			);
+			name = Practica_RealityKit_AGGATests;
+			packageProductDependencies = (
+				5783AF602C2CA4730083FC73 /* ViewInspector */,
+			);
+			productName = Practica_RealityKit_AGGATests;
+			productReference = 5783AF562C2CA3D50083FC73 /* Practica_RealityKit_AGGATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6E6787B42BEE8EF400330C28 /* Practica_RealityKit_AGGA */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E6787DA2BEE8EF600330C28 /* Build configuration list for PBXNativeTarget "Practica_RealityKit_AGGA" */;
@@ -302,6 +355,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					5783AF552C2CA3D50083FC73 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 6E6787B42BEE8EF400330C28;
+					};
 					6E6787B42BEE8EF400330C28 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -317,17 +374,26 @@
 			);
 			mainGroup = 6E6787AC2BEE8EF400330C28;
 			packageReferences = (
+				5783AF5F2C2CA4730083FC73 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = 6E6787B62BEE8EF400330C28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6E6787B42BEE8EF400330C28 /* Practica_RealityKit_AGGA */,
+				5783AF552C2CA3D50083FC73 /* Practica_RealityKit_AGGATests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5783AF542C2CA3D50083FC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E6787B32BEE8EF400330C28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +418,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5783AF522C2CA3D50083FC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5783AF592C2CA3D50083FC73 /* Practica_RealityKit_AGGATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E6787B12BEE8EF400330C28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,7 +452,56 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5783AF5B2C2CA3D50083FC73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6787B42BEE8EF400330C28 /* Practica_RealityKit_AGGA */;
+			targetProxy = 5783AF5A2C2CA3D50083FC73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5783AF5C2C2CA3D50083FC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D37CG77DN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AGGA.Practica-RealityKit-AGGATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica_RealityKit_AGGA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Practica_RealityKit_AGGA";
+			};
+			name = Debug;
+		};
+		5783AF5D2C2CA3D50083FC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D37CG77DN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AGGA.Practica-RealityKit-AGGATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practica_RealityKit_AGGA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Practica_RealityKit_AGGA";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6E6787D82BEE8EF600330C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -586,6 +709,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5783AF5E2C2CA3D50083FC73 /* Build configuration list for PBXNativeTarget "Practica_RealityKit_AGGATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5783AF5C2C2CA3D50083FC73 /* Debug */,
+				5783AF5D2C2CA3D50083FC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6E6787B02BEE8EF400330C28 /* Build configuration list for PBXProject "Practica_RealityKit_AGGA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -605,6 +737,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5783AF5F2C2CA4730083FC73 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5783AF602C2CA4730083FC73 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5783AF5F2C2CA4730083FC73 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E6787AD2BEE8EF400330C28 /* Project object */;
 }

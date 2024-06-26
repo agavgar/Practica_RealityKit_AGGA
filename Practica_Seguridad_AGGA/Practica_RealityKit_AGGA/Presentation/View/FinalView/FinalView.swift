@@ -16,6 +16,7 @@ struct FinalView: View {
                 Image("Win")
                     .ignoresSafeArea()
                 .scaledToFill()
+                .id(6)
                 
                 Button(action: {
                     viewModel.reset()
@@ -33,6 +34,7 @@ struct FinalView: View {
                         .background(.yellow)
                         .foregroundColor(.white)
                         .cornerRadius(10)
+                        .id(8)
 
                 }
                 .padding()
